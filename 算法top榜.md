@@ -1,3 +1,326 @@
+## 题目目录
+
+> 共 315 道题，点击题目名称可直接跳转
+
+- [215. 数组中的第K个最大元素](#p-215)
+- [33. 搜索旋转排序数组](#p-33)
+- [103. 二叉树的锯齿形层序遍历](#p-103)
+- [236. 二叉树的最近公共祖先](#p-236)
+- [300. 最长递增子序列](#p-300)
+- [143. 重排链表](#p-143)
+- [42. 接雨水](#p-42)
+- [72. 编辑距离](#p-72)
+- [124. 二叉树中的最大路径和](#p-124)
+- [93. 复原 IP 地址](#p-93)
+- [82. 删除排序链表中的重复元素 II](#p-82)
+- [4. 寻找两个正序数组的中位数](#p-4)
+- [148. 排序链表](#p-148)
+- [22. 括号生成](#p-22)
+- [165. 比较版本号](#p-165)
+- [239. 滑动窗口最大值](#p-239)
+- [8. 字符串转换整数 (atoi)](#p-8)
+- [2. 两数相加](#p-2)
+- [32. 最长有效括号](#p-32)
+- [76. 最小覆盖子串](#p-76)
+- [41. 缺失的第一个正数](#p-41)
+- [43. 字符串相乘](#p-43)
+- [105. 从前序与中序遍历序列构造二叉树](#p-105)
+- [78. 子集](#p-78)
+- [155. 最小栈](#p-155)
+- [101. 对称二叉树](#p-101)
+- [394. 字符串解码](#p-394)
+- [221. 最大正方形](#p-221)
+- [470. 用 Rand7() 实现 Rand10()](#p-470)
+- [128. 最长连续序列](#p-128)
+- [240. 搜索二维矩阵 II](#p-240)
+- [234. 回文链表](#p-234)
+- [162. 寻找峰值](#p-162)
+- [152. 乘积最大子数组](#p-152)
+- [662. 二叉树最大宽度](#p-662)
+- [179. 最大数](#p-179)
+- [560. 和为 K 的子数组](#p-560)
+- [227. 基本计算器 II](#p-227)
+- [139. 单词拆分](#p-139)
+- [283. 移动零](#p-283)
+- [24. 两两交换链表中的节点](#p-24)
+- [912. 排序数组](#p-912)
+- [138. 随机链表的复制](#p-138)
+- [468. 验证IP地址](#p-468)
+- [224. 基本计算器](#p-224)
+- [224. 基本计算器](#p-224-2)
+- [297. 二叉树的序列化与反序列化](#p-297)
+- [153. 寻找旋转排序数组中的最小值](#p-153)
+- [79. 单词搜索](#p-79)
+- [402. 移掉 K 位数字](#p-402)
+- [47. 全排列 II](#p-47)
+- [11. 盛最多水的容器](#p-11)
+- [460. LFU 缓存](#p-460)
+- [912. 排序数组](#p-912-2)
+- [498. 对角线遍历](#p-498)
+- [40. 组合总和 II](#p-40)
+- [16. 最接近的三数之和](#p-16)
+- [74. 搜索二维矩阵](#p-74)
+- [7. 整数反转](#p-7)
+- [50. Pow(x, n)](#p-50)
+- [75. 颜色分类](#p-75)
+- [572. 另一棵树的子树](#p-572)
+- [440. 字典序的第K小数字](#p-440)
+- [91. 解码方法](#p-91)
+- [442. 数组中重复的数据](#p-442)
+- [329. 矩阵中的最长递增路径](#p-329)
+- [445. 两数相加 II](#p-445)
+- [10. 正则表达式匹配](#p-10)
+- [347. 前 K 个高频元素](#p-347)
+- [208. 实现 Trie (前缀树)](#p-208)
+- [295. 数据流的中位数](#p-295)
+- [106. 从中序与后序遍历序列构造二叉树](#p-106)
+- [213. 打家劫舍 II](#p-213)
+- [516. 最长回文子序列](#p-516)
+- [189. 轮转数组](#p-189)
+- [225. 用队列实现栈](#p-225)
+- [678. 有效的括号字符串](#p-678)
+- [887. 鸡蛋掉落](#p-887)
+- [384. 打乱数组](#p-384)
+- [611. 有效三角形的个数](#p-611)
+- [44. 通配符匹配](#p-44)
+- [84. 柱状图中最大的矩形](#p-84)
+- [85. 最大矩形](#p-85)
+- [400. 第 N 位数字](#p-400)
+- [134. 加油站](#p-134)
+- [395. 至少有 K 个重复字符的最长子串](#p-395)
+- [1004. 最大连续1的个数 III](#p-1004)
+- [97. 交错字符串](#p-97)
+- [679. 24 点游戏](#p-679)
+- [316. 去除重复字母](#p-316)
+- [264. 丑数 II](#p-264)
+- [673. 最长递增子序列的个数](#p-673)
+- [494. 目标和](#p-494)
+- [670. 最大交换](#p-670)
+- [416. 分割等和子集](#p-416)
+- [459. 重复的子字符串](#p-459)
+- [111. 二叉树的最小深度](#p-111)
+- [443. 压缩字符串](#p-443)
+- [168. Excel 表列名称](#p-168)
+- [343. 整数拆分](#p-343)
+- [37. 解数独](#p-37)
+- [567. 字符串的排列](#p-567)
+- [503. 下一个更大元素 II](#p-503)
+- [556. 下一个更大元素 III](#p-556)
+- [378. 有序矩阵中第 K 小的元素](#p-378)
+- [260. 只出现一次的数字 III](#p-260)
+- [18. 四数之和](#p-18)
+- [86. 分隔链表](#p-86)
+- [1444. 切披萨的方案数](#p-1444)
+- [1044. 最长重复子串](#p-1044)
+- [380. O(1) 时间插入、删除和获取随机元素](#p-380)
+- [410. 分割数组的最大值](#p-410)
+- [6. Z 字形变换](#p-6)
+- [622. 设计循环队列](#p-622)
+- [301. 删除无效的括号](#p-301)
+- [863. 二叉树中所有距离为 K 的结点](#p-863)
+- [115. 不同的子序列](#p-115)
+- [257. 二叉树的所有路径](#p-257)
+- [188. 买卖股票的最佳时机 IV](#p-188)
+- [438. 找到字符串中所有字母异位词](#p-438)
+- [528. 按权重随机选择](#p-528)
+- [862. 和至少为 K 的最短子数组](#p-862)
+- [554. 砖墙](#p-554)
+- [13. 罗马数字转整数](#p-13)
+- [525. 连续数组](#p-525)
+- [1262. 可被三整除的最大和](#p-1262)
+- [1095. 山脉数组中查找目标值](#p-1095)
+- [946. 验证栈序列](#p-946)
+- [540. 有序数组中的单一元素](#p-540)
+- [172. 阶乘后的零](#p-172)
+- [204. 计数质数](#p-204)
+- [109. 有序链表转换二叉搜索树](#p-109)
+- [680. 验证回文串 II](#p-680)
+- [109. 有序链表转换二叉搜索树](#p-109-2)
+- [547. 省份数量](#p-547)
+- [617. 合并二叉树](#p-617)
+- [386. 字典序排数](#p-386)
+- [523. 连续的子数组和](#p-523)
+- [334. 递增的三元子序列](#p-334)
+- [974. 和可被 K 整除的子数组](#p-974)
+- [49. 字母异位词分组](#p-49)
+- [994. 腐烂的橘子](#p-994)
+- [1556. 千位分隔数](#p-1556)
+- [233. 数字 1 的个数](#p-233)
+- [315. 计算右侧小于当前元素的个数](#p-315)
+- [1312. 让字符串成为回文串的最少插入次数](#p-1312)
+- [407. 接雨水 II](#p-407)
+- [437. 路径总和 III](#p-437)
+- [902. 最大为 N 的数字组合](#p-902)
+- [60. 排列序列](#p-60)
+- [238. 除自身以外数组的乘积](#p-238)
+- [628. 三个数的最大乘积](#p-628)
+- [658. 找到 K 个最接近的元素](#p-658)
+- [68. 文本左右对齐](#p-68)
+- [845. 数组中的最长山脉](#p-845)
+- [486. 预测赢家](#p-486)
+- [735. 小行星碰撞](#p-735)
+- [73. 矩阵置零](#p-73)
+- [456. 132 模式](#p-456)
+- [435. 无重叠区间](#p-435)
+- [907. 子数组的最小值之和](#p-907)
+- [306. 累加数](#p-306)
+- [149. 直线上最多的点数](#p-149)
+- [166. 分数到小数](#p-166)
+- [452. 用最少数量的箭引爆气球](#p-452)
+- [312. 戳气球](#p-312)
+- [29. 两数相除](#p-29)
+- [164. 最大间距](#p-164)
+- [4. 寻找两个正序数组的中位数](#p-4-2)
+- [836. 矩形重叠](#p-836)
+- [67. 二进制求和](#p-67)
+- [698. 划分为k个相等的子集](#p-698)
+- [581. 最短无序连续子数组](#p-581)
+- [133. 克隆图](#p-133)
+- [986. 区间列表的交集](#p-986)
+- [405. 数字转换为十六进制数](#p-405)
+- [99. 恢复二叉搜索树](#p-99)
+- [137. 只出现一次的数字 II](#p-137)
+- [30. 串联所有单词的子串](#p-30)
+- [1293. 网格中的最短路径](#p-1293)
+- [1206. 设计跳表](#p-1206)
+- [451. 根据字符出现频率排序](#p-451)
+- [889. 根据前序和后序遍历构造二叉树](#p-889)
+- [1171. 从链表中删去总和值为零的连续节点](#p-1171)
+- [321. 拼接最大数](#p-321)
+- [722. 删除注释](#p-722)
+- [381. O(1) 时间插入、删除和获取随机元素 - 允许重复](#p-381)
+- [214. 最短回文串](#p-214)
+- [559. N 叉树的最大深度](#p-559)
+- [57. 插入区间](#p-57)
+- [140. 单词拆分 II](#p-140)
+- [273. 整数转换英文表示](#p-273)
+- [767. 重构字符串](#p-767)
+- [875. 爱吃香蕉的珂珂](#p-875)
+- [421. 数组中两个数的最大异或值](#p-421)
+- [1146. 快照数组](#p-1146)
+- [1044. 最长重复子串](#p-1044-2)
+- [895. 最大频率栈](#p-895)
+- [918. 环形子数组的最大和](#p-918)
+- [1233. 删除子文件夹](#p-1233)
+- [480. 滑动窗口中位数](#p-480)
+- [1027. 最长等差数列](#p-1027)
+- [1658. 将 x 减到 0 的最小操作数](#p-1658)
+- [1280. 学生们参加各科测试的次数](#p-1280)
+- [703. 数据流中的第 K 大元素](#p-703)
+- [1109. 航班预订统计](#p-1109)
+- [1438. 绝对差不超过限制的最长连续子数组](#p-1438)
+- [237. 删除链表中的节点](#p-237)
+- [873. 最长的斐波那契子序列的长度](#p-873)
+- [382. 链表随机节点](#p-382)
+- [781. 森林中的兔子](#p-781)
+- [652. 寻找重复的子树](#p-652)
+- [870. 优势洗牌](#p-870)
+- [376. 摆动序列](#p-376)
+- [365. 水壶问题](#p-365)
+- [877. 石子游戏](#p-877)
+- [915. 分割数组](#p-915)
+- [373. 查找和最小的 K 对数字](#p-373)
+- [1013. 将数组分成和相等的三个部分](#p-1013)
+- [147. 对链表进行插入排序](#p-147)
+- [786. 第 K 个最小的质数分数](#p-786)
+- [726. 原子的数量](#p-726)
+- [1049. 最后一块石头的重量 II](#p-1049)
+- [331. 验证二叉树的前序序列化](#p-331)
+- [187. 重复的DNA序列](#p-187)
+- [621. 任务调度器](#p-621)
+- [632. 最小区间](#p-632)
+- [814. 二叉树剪枝](#p-814)
+- [1339. 分裂二叉树的最大乘积](#p-1339)
+- [399. 除法求值](#p-399)
+- [633. 平方数之和](#p-633)
+- [820. 单词的压缩编码](#p-820)
+- [1209. 删除字符串中的所有相邻重复项 II](#p-1209)
+- [151. 反转字符串中的单词](#p-151)
+- [212. 单词搜索 II](#p-212)
+- [132. 分割回文串 II](#p-132)
+- [387. 字符串中的第一个唯一字符](#p-387)
+- [539. 最小时间差](#p-539)
+- [473. 火柴拼正方形](#p-473)
+- [796. 旋转字符串](#p-796)
+- [1011. 在 D 天内送达包裹的能力](#p-1011)
+- [1424. 对角线遍历 II](#p-1424)
+- [241. 为运算表达式设计优先级](#p-241)
+- [393. UTF-8 编码验证](#p-393)
+- [785. 判断二分图](#p-785)
+- [1031. 两个非重叠子数组的最大和](#p-1031)
+- [89. 格雷编码](#p-89)
+- [1493. 删掉一个元素以后全为 1 的最长子数组](#p-1493)
+- [449. 序列化和反序列化二叉搜索树](#p-449)
+- [1353. 最多可以参加的会议数目](#p-1353)
+- [951. 翻转等价二叉树](#p-951)
+- [738. 单调递增的数字](#p-738)
+- [886. 可能的二分法](#p-886)
+- [949. 给定数字能组成的最大时间](#p-949)
+- [1423. 可获得的最大点数](#p-1423)
+- [1195. 交替打印字符串](#p-1195)
+- [1026. 节点与其祖先之间的最大差值](#p-1026)
+- [292. Nim 游戏](#p-292)
+- [987. 二叉树的垂序遍历](#p-987)
+- [829. 连续整数求和](#p-829)
+- [1115. 交替打印 FooBar](#p-1115)
+- [983. 最低票价](#p-983)
+- [1249. 移除无效的括号](#p-1249)
+- [1227. 飞机座位分配概率](#p-1227)
+- [791. 自定义字符串排序](#p-791)
+- [116. 填充每个节点的下一个右侧节点指针](#p-116)
+- [697. 数组的度](#p-697)
+- [538. 把二叉搜索树转换为累加树](#p-538)
+- [805. 数组的均值分割](#p-805)
+- [1024. 视频拼接](#p-1024)
+- [1156. 单字符重复子串的最大长度](#p-1156)
+- [687. 最长同值路径](#p-687)
+- [90. 子集 II](#p-90)
+- [980. 不同路径 III](#p-980)
+- [1235. 规划兼职工作](#p-1235)
+- [582. 杀掉进程 - 力扣（LeetCode）](#p-582)
+- [280. 摆动排序 - 力扣（LeetCode）](#p-280)
+- [324. 摆动排序 II](#p-324)
+- [369. 给单链表加一 - 力扣（LeetCode）](#p-369)
+- [856. 括号的分数](#p-856)
+- [593. 有效的正方形](#p-593)
+- [743. 网络延迟时间](#p-743)
+- [1277. 统计全为 1 的正方形子矩阵](#p-1277)
+- [318. 最大单词长度乘积](#p-318)
+- [1106. 解析布尔表达式](#p-1106)
+- [653. 两数之和 IV - 输入二叉搜索树](#p-653)
+- [813. 最大平均值和的分组](#p-813)
+- [65. 有效数字](#p-65)
+- [773. 滑动谜题](#p-773)
+- [583. 两个字符串的删除操作](#p-583)
+- [792. 匹配子序列的单词数](#p-792)
+- [474. 一和零](#p-474)
+- [391. 完美矩形](#p-391)
+- [1129. 颜色交替的最短路径](#p-1129)
+- [341. 扁平化嵌套列表迭代器](#p-341)
+- [1048. 最长字符串链](#p-1048)
+- [1358. 包含所有三种字符的子字符串数目](#p-1358)
+- [910. 最小差值 II](#p-910)
+- [1668. 最大重复子字符串](#p-1668)
+- [313. 超级丑数](#p-313)
+- [1594. 矩阵的最大非负积](#p-1594)
+- [299. 猜数字游戏](#p-299)
+- [397. 整数替换](#p-397)
+- [769. 最多能完成排序的块](#p-769)
+- [853. 车队](#p-853)
+- [477. 汉明距离总和](#p-477)
+- [1367. 二叉树中的链表](#p-1367)
+- [423. 从英文中重建数字](#p-423)
+- [859. 亲密字符串](#p-859)
+- [795. 区间子数组个数](#p-795)
+- [629. K 个逆序对数组](#p-629)
+- [65. 有效数字](#p-65-2)
+- [862. 和至少为 K 的最短子数组](#p-862-2)
+- [31. 下一个排列](#p-31)
+- [224. 基本计算器](#p-224-3)
+
+---
+
+<a id="p-215"></a>
 [215. 数组中的第K个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/)
 
 ```java
@@ -41,6 +364,7 @@ void swap(int nums[],int i,int j)
 }
 ```
 
+<a id="p-33"></a>
 [33. 搜索旋转排序数组](https://leetcode.cn/problems/search-in-rotated-sorted-array/)
 
 注意判断的时候有一个等号
@@ -67,6 +391,7 @@ public int search(int[] nums, int target) {
     }
 ```
 
+<a id="p-103"></a>
 [103. 二叉树的锯齿形层序遍历](https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/)
 
 正常的层次遍历，但是在path中选择是从最后添加还是第一个添加
@@ -97,6 +422,7 @@ public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
     }
 ```
 
+<a id="p-236"></a>
 [236. 二叉树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/)
 
 后序遍历
@@ -114,6 +440,7 @@ public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
     }
 ```
 
+<a id="p-300"></a>
 [300. 最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence/)
 
 每向后移动一个位置都要回去找比当前指针小的元素，然后加一比较取最大值
@@ -134,6 +461,7 @@ public int lengthOfLIS(int[] nums) {
     }
 ```
 
+<a id="p-143"></a>
 [143. 重排链表](https://leetcode.cn/problems/reorder-list/)
 
 找到链表中点，分成两个链表，前一个链表next置空，然后交替进行穿插，最后别忘了第二个链表可能多一个元素
@@ -176,6 +504,7 @@ public void reorderList(ListNode head) {
     }
 ```
 
+<a id="p-42"></a>
 [42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/)
 
 挺麻烦的，如果栈中元素大于等于2，在循环里面bottom是pop的而left是peek的，如果是left和bottom相同那就会加上零相当于一个pop。
@@ -223,6 +552,7 @@ class Solution {
 }
 ```
 
+<a id="p-72"></a>
 [72. 编辑距离](https://leetcode.cn/problems/edit-distance/)
 
 初始化注意一下，空串和非空串的距离等于非空串的长度
@@ -243,6 +573,7 @@ public int minDistance(String word1, String word2) {
     }
 ```
 
+<a id="p-124"></a>
 [124. 二叉树中的最大路径和](https://leetcode.cn/problems/binary-tree-maximum-path-sum/)
 
 当前节点是顶节点不会在往上找了需要更新max ，如果不是顶节点那就加上自己的左孩子或者右孩子。
@@ -264,6 +595,7 @@ int max=Integer.MIN_VALUE;
     }
 ```
 
+<a id="p-93"></a>
 [93. 复原 IP 地址](https://leetcode.cn/problems/restore-ip-addresses/)
 
 挺麻烦的，记录点的数目作为终止条件，然后有前导零的时候单独递归，要记得回溯。
@@ -320,6 +652,7 @@ ArrayList<String> res = new ArrayList<>();
 
 ```
 
+<a id="p-82"></a>
 [82. 删除排序链表中的重复元素 II](https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/)
 
 循环先判定是不是为空，内部分支再循环是否和下一个元素相等，相等则后移到第一个不是这个的元素，否则加入目标链表。
@@ -349,6 +682,7 @@ public ListNode deleteDuplicates(ListNode head) {
 
 ```
 
+<a id="p-4"></a>
 [**4. 寻找两个正序数组的中位数**](https://leetcode.cn/problems/median-of-two-sorted-arrays/)
 
 方法一：设置两个栈，先全部放入最大栈中，然后算出长度再把一半都放入栈里面，然后取两个栈顶取平均值或者最大栈栈顶。
@@ -379,6 +713,7 @@ public double findMedianSortedArrays(int[] nums1, int[] nums2) {
     }
 ```
 
+<a id="p-148"></a>
 [148. 排序链表](https://leetcode.cn/problems/sort-list/)
 
 插入排序，太慢了会超时
@@ -461,18 +796,21 @@ public ListNode sortList(ListNode head) {
 
 ```
 
+<a id="p-22"></a>
 [22. 括号生成](https://leetcode.cn/problems/generate-parentheses/)
 
 只有一个要注意的就是路径的生成使用stringbuilder就好
 
+<a id="p-165"></a>
 [**165. 比较版本号**](https://leetcode.cn/problems/compare-version-numbers/)
 
 只有一个地方就是 . 需要转义
 
-![1747800386297](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1747800386297.png)
+![1747800386297](images/1747800386297.png)
 
 
 
+<a id="p-239"></a>
 [239. 滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/)
 
 最大栈更新最大值，如果i-k位置是最大值删掉，别忘记循环条件中的maxstack不为空。
@@ -504,6 +842,7 @@ public int[] maxSlidingWindow(int[] nums, int k) {
 
 ```
 
+<a id="p-8"></a>
 [8. 字符串转换整数 (atoi)](https://leetcode.cn/problems/string-to-integer-atoi/)
 
 当它是数字的时候的处理相对比较复杂，边界情况
@@ -541,10 +880,12 @@ public int myAtoi(String s) {
 
 ```
 
+<a id="p-2"></a>
 [2. 两数相加](https://leetcode.cn/problems/add-two-numbers/)
 
 有两个注意点，sum>9 add置为true否则置为false，最后如果add是true还要new ListNode
 
+<a id="p-32"></a>
 [**32. 最长有效括号**](https://leetcode.cn/problems/longest-valid-parentheses/)
 
 只有在指针到右括号才有可能dp有变化，所以只有是右括号的时候才好使，主要是注意if中的转移方程，情况一，如果前一个是左括号，那就变成前一个的左括号的前一个有效长度加二，注意临界情况，情况二如果当前指针的右括号前一个还是右括号，那就返回到它的有效长度的前面去看看是不是左括号，i-dp[i-1]-1就是跳到前一个右括号有效长度的前面一个位置。
@@ -570,6 +911,7 @@ public int longestValidParentheses(String s) {
 
 ```
 
+<a id="p-76"></a>
 [76. 最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring/)
 
 时间复杂度比较大，就是每次全部重新比较是不是符合规则的滑动窗口的方法
@@ -694,6 +1036,7 @@ boolean isok(HashMap<Character,Integer> hms,HashMap<Character,Integer> hmt)
     }
 ```
 
+<a id="p-41"></a>
 **[41. 缺失的第一个正数](https://leetcode.cn/problems/first-missing-positive/)**
 
 思路：具体步骤
@@ -727,6 +1070,7 @@ public int firstMissingPositive(int[] nums) {
     }
 ```
 
+<a id="p-43"></a>
 [43. 字符串相乘](https://leetcode.cn/problems/multiply-strings/)
 
 写得非常快哈，模拟正常的乘法，从最后一位到第一位×然后再每一位进位
@@ -765,6 +1109,7 @@ public String multiply(String num1, String num2) {
     }
 ```
 
+<a id="p-105"></a>
 [105. 从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 
 思路就是后序生成树，递归生成左右孩子先，思路就是找到当前根节点的序号然后左右递归生成左右孩子，返回当前节点，一开始是边界情况。
@@ -789,6 +1134,7 @@ public TreeNode buildTree(int[] preorder, int[] inorder) {
     }
 ```
 
+<a id="p-78"></a>
 [78. 子集](https://leetcode.cn/problems/subsets/)
 
 错了一个地方就是把travel(nums,i+1);写错了，写成了now+1
@@ -812,6 +1158,7 @@ LinkedList<Integer> path=new LinkedList<>();
     }
 ```
 
+<a id="p-155"></a>
 [155. 最小栈](https://leetcode.cn/problems/min-stack/)
 
 有一个思考点，维护两个栈，就是只有当前元素比minstack元素小的时候才加入栈，因为即使新加入了大于最小栈栈顶的元素，在出栈的时候最小栈栈顶元素也不出栈，因为后进先出
@@ -852,6 +1199,7 @@ LinkedList<Integer> path=new LinkedList<>();
     }
 ```
 
+<a id="p-101"></a>
 [101. 对称二叉树](https://leetcode.cn/problems/symmetric-tree/)
 
 漏了一个条件， if(r1.val!=r2.val) return false;
@@ -870,6 +1218,7 @@ public boolean isSymmetric(TreeNode root) {
     }
 ```
 
+<a id="p-394"></a>
 [**394. 字符串解码**](https://leetcode.cn/problems/decode-string/)
 
 想复杂了，但是确实要一些逻辑，做两个栈，一个数字栈，一个临时字母栈还有一个
@@ -921,6 +1270,7 @@ public String decodeString(String s) {
     }
 ```
 
+<a id="p-221"></a>
 [221. 最大正方形](https://leetcode.cn/problems/maximal-square/)
 
 ```java
@@ -929,11 +1279,12 @@ public String decodeString(String s) {
  else dp[i][j]=1;
 ```
 
+<a id="p-470"></a>
 [470. 用 Rand7() 实现 Rand10()](https://leetcode.cn/problems/implement-rand10-using-rand7/)
 
 万能方法，拆成7行七列然后取余
 
-![1748246471641](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1748246471641.png)
+![1748246471641](images/1748246471641.png)
 
 ```java
 class Solution extends SolBase {
@@ -949,6 +1300,7 @@ class Solution extends SolBase {
 }
 ```
 
+<a id="p-128"></a>
 [128. 最长连续序列](https://leetcode.cn/problems/longest-consecutive-sequence/)
 
 ```java
@@ -966,6 +1318,7 @@ public int longestConsecutive(int[] nums) {
     }
 ```
 
+<a id="p-240"></a>
 [240. 搜索二维矩阵 II](https://leetcode.cn/problems/search-a-2d-matrix-ii/)
 
 可以在左下角或者右上角开始遍历，只会往右上走或者左下走
@@ -985,10 +1338,12 @@ public boolean searchMatrix(int[][] matrix, int target) {
     }
 ```
 
+<a id="p-234"></a>
 [234. 回文链表](https://leetcode.cn/problems/palindrome-linked-list/)
 
 使用快慢指针找到链表中点，前半部分尾部置空，同时反转后面的节点，然后两个指针比较是否相等，相等的话就是回文表，前半部分的长度和后半长度相等或者少一个，只要判断第一个链表到头就可以了
 
+<a id="p-162"></a>
 [**162. 寻找峰值**](https://leetcode.cn/problems/find-peak-element/)
 
 已知左边右边是最小值，假设右边比当前值小，那左边包括mid一定有峰值，因为右边比他小了，左边界是最小的
@@ -1009,6 +1364,7 @@ public int findPeakElement(int[] nums) {
     }
 ```
 
+<a id="p-152"></a>
 [152. 乘积最大子数组](https://leetcode.cn/problems/maximum-product-subarray/)
 
 三个变量，一个结果两个实时的最大最小值变量
@@ -1033,6 +1389,7 @@ public int maxProduct(int[] nums) {
     }
 ```
 
+<a id="p-662"></a>
 [**662. 二叉树最大宽度**](https://leetcode.cn/problems/maximum-width-of-binary-tree/)
 
 想法非常好，根据完全二叉树的性质，左节点编号是根节点两倍，而右节点是根节点两倍加一
@@ -1072,6 +1429,7 @@ class node{
     }
 ```
 
+<a id="p-179"></a>
 [**179. 最大数**](https://leetcode.cn/problems/largest-number/)
 
 一个是integer的问题，还有一个是equals("0")的问题
@@ -1093,11 +1451,12 @@ public String largestNumber(int[] nums) {
     }
 ```
 
+<a id="p-560"></a>
 [560. 和为 K 的子数组](https://leetcode.cn/problems/subarray-sum-equals-k/)
 
 非常巧妙，使用了前缀和的性质，不太容易想到，然后还有一个就是初始放一个（0，1）
 
-![1748518074185](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1748518074185.png)
+![1748518074185](images/1748518074185.png)
 
 ```java
 public int subarraySum(int[] nums, int k) {
@@ -1122,6 +1481,7 @@ public int subarraySum(int[] nums, int k) {
 }
 ```
 
+<a id="p-227"></a>
 [227. 基本计算器 II](https://leetcode.cn/problems/basic-calculator-ii/)
 
 有点难，需要思考好几个点
@@ -1169,6 +1529,7 @@ public int calculate(String s) {
     }
 ```
 
+<a id="p-139"></a>
 [139. 单词拆分](https://leetcode.cn/problems/word-break/)
 
 i的意思是不包含的上界，这样处理会很方便
@@ -1189,6 +1550,7 @@ public boolean wordBreak(String s, List<String> wordDict) {
     }
 ```
 
+<a id="p-283"></a>
 [283. 移动零](https://leetcode.cn/problems/move-zeroes/)
 
 双指针，一个指针指向最前面非零元素可以放的地方，然后另一个指针遍历，一个个指针放过去，最后全部都是0元素，置零
@@ -1209,6 +1571,7 @@ public void moveZeroes(int[] nums) {
     }
 ```
 
+<a id="p-24"></a>
 [24. 两两交换链表中的节点](https://leetcode.cn/problems/swap-nodes-in-pairs/)
 
 找到要交换的两个节点的前一个结点，方便交换
@@ -1231,6 +1594,7 @@ public ListNode swapPairs(ListNode head) {
     }
 ```
 
+<a id="p-912"></a>
 [912. 排序数组](https://leetcode.cn/problems/sort-an-array/)  主要说堆排序
 
 快速排序法，if(nums[l]<=p)可以免除与首元素相同元素额外赋值的问题  如果小于等于直接移动指针
@@ -1313,6 +1677,7 @@ public static Random rd=new Random();
     }
 ```
 
+<a id="p-138"></a>
 [138. 随机链表的复制](https://leetcode.cn/problems/copy-list-with-random-pointer/)
 
 直接用hashmap可以直接给到一一对应的关系
@@ -1335,6 +1700,7 @@ public Node copyRandomList(Node head) {
     }
 ```
 
+<a id="p-468"></a>
 [468. 验证IP地址](https://leetcode.cn/problems/validate-ip-address/)
 
 主要就是split(":", -1)这个函数给一个-1的参数，`split(":", -1)` 会把连续冒号、开头 / 结尾冒号都拆成空串）
@@ -1395,6 +1761,7 @@ public String validIPAddress(String queryIP) {
     }
 ```
 
+<a id="p-224"></a>
 [224. 基本计算器](https://leetcode.cn/problems/basic-calculator/)
 
 ```java
@@ -1445,6 +1812,7 @@ public int calculate(String s) {
     }
 ```
 
+<a id="p-224-2"></a>
 [224. 基本计算器](https://leetcode.cn/problems/basic-calculator/)
 
 碰到左括号要入双栈，保留原来左侧的全部内容，然后重新开始新的状态
@@ -1516,6 +1884,7 @@ public int calculate(String s) {
 }
 ```
 
+<a id="p-297"></a>
 [297. 二叉树的序列化与反序列化](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/)
 
 1、使用层次遍历序列化，包括null值都在里面，在反序列化时除了根节点，其他不可能碰到null值，因为递归子节点的时候没有入队
@@ -1625,6 +1994,7 @@ private TreeNode build(String[] split) {
 }
 ```
 
+<a id="p-153"></a>
 [153. 寻找旋转排序数组中的最小值](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/)
 
 最后找左边的时候记得是left到mid而不是mid-1
@@ -1655,6 +2025,7 @@ public int findMin(int[] nums) {
     }
 ```
 
+<a id="p-79"></a>
 [79. 单词搜索](https://leetcode.cn/problems/word-search/)
 
 DFS+visited数组
@@ -1691,11 +2062,12 @@ public boolean exist(char[][] board, String word) {
     }
 ```
 
+<a id="p-402"></a>
 [402. 移掉 K 位数字](https://leetcode.cn/problems/remove-k-digits/)
 
 单调栈加贪心，左侧数字比右侧大就可以出栈，若还有剩余把最后的删掉，因为它比较大，两次贪心
 
-![1748861608949](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1748861608949.png)
+![1748861608949](images/1748861608949.png)
 
 ```java
 public String removeKdigits(String num, int k) {
@@ -1727,6 +2099,7 @@ public String removeKdigits(String num, int k) {
     }
 ```
 
+<a id="p-47"></a>
 [47. 全排列 II](https://leetcode.cn/problems/permutations-ii/)
 
 主要是去重逻辑，就是if(visited[i]||i>0&&nums[i]==nums[i-1]&&visited[i-1]==false)continue;
@@ -1760,6 +2133,7 @@ LinkedList<Integer> path=new LinkedList<>();
     }
 ```
 
+<a id="p-11"></a>
 **[11. 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/)**
 
 双指针贪心，从最左侧最右侧开始计算面积，更新面积最大的，然后更新较短一侧指针，说不定可以变大，虽然长少了但是宽说不定变大。
@@ -1779,6 +2153,7 @@ public int maxArea(int[] height) {
     }
 ```
 
+<a id="p-460"></a>
 [460. LFU 缓存](https://leetcode.cn/problems/lfu-cache/)
 
 最难题，双向链表基础结构，频率哈希表同时维护LRU的逻辑，链表节点哈希表，需要一个当前最小频率的全局变量。
@@ -1926,6 +2301,7 @@ class LFUCache {
 }
 ```
 
+<a id="p-912-2"></a>
 [912. 排序数组](https://leetcode.cn/problems/sort-an-array/)
 
 归并排序，从前往后排，每次需要一个O(n)空间的消耗
@@ -2015,6 +2391,7 @@ void swap(int[] nums, int i, int j) {
 }
 ```
 
+<a id="p-498"></a>
 [498. 对角线遍历](https://leetcode.cn/problems/diagonal-traverse/)
 
 左下边界转上，右上边界转下
@@ -2058,6 +2435,7 @@ public int[] findDiagonalOrder(int[][] mat) {
 }
 ```
 
+<a id="p-40"></a>
 [40. 组合总和 II](https://leetcode.cn/problems/combination-sum-ii/)
 
 难在去重的条件：if(i>idx&&candidates[i]==candidates[i-1])而不是i>0；
@@ -2088,10 +2466,12 @@ void travel(int candidates[],int idx,int target)
 }
 ```
 
+<a id="p-16"></a>
 [16. 最接近的三数之和](https://leetcode.cn/problems/3sum-closest/)
 
 双指针秒了，每次都要比较一下，还需要一个额外的变量记录当前距离最小的绝对值。
 
+<a id="p-74"></a>
 [74. 搜索二维矩阵](https://leetcode.cn/problems/search-a-2d-matrix/)
 
 两种方法，二分法去找，第二种方法，从左下和右上去找，越界了就说明没有。
@@ -2116,6 +2496,7 @@ public boolean searchMatrix(int[][] matrix, int target) {
     }
 ```
 
+<a id="p-7"></a>
 [7. 整数反转](https://leetcode.cn/problems/reverse-integer/)
 
 ```java
@@ -2132,6 +2513,7 @@ public int reverse(int x) {
     }
 ```
 
+<a id="p-50"></a>
 [50. Pow(x, n)](https://leetcode.cn/problems/powx-n/)
 
 快速幂算法，这个省了很多中间变量，最后肯定会经过1把它乘进去
@@ -2155,6 +2537,7 @@ public double myPow(double x, int n) {
     }
 ```
 
+<a id="p-75"></a>
 [75. 颜色分类](https://leetcode.cn/problems/sort-colors/)
 
 维护三个指针，包括当前指针，0和2的当前指针，在遇到不同情况时采取不同措施，有的now要++有的不要
@@ -2179,6 +2562,7 @@ public void sortColors(int[] nums) {
     }
 ```
 
+<a id="p-572"></a>
 [572. 另一棵树的子树](https://leetcode.cn/problems/subtree-of-another-tree/)
 
 直接DFS找所有节点然后比较就好了，本来想用哈希表存对应节点然后遍历根节点值相同的原树的集合，过于复杂
@@ -2321,15 +2705,16 @@ private int mergeSortAndCount(int[] nums, int left, int right, int[] temp) {
 }
 ```
 
+<a id="p-440"></a>
 [440. 字典序的第K小数字](https://leetcode.cn/problems/k-th-smallest-in-lexicographical-order/)
 
-![1749385333884](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1749385333884.png)
+![1749385333884](images/1749385333884.png)
 
-![1749385344416](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1749385344416.png)
+![1749385344416](images/1749385344416.png)
 
-![1749385397421](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1749385397421.png)
+![1749385397421](images/1749385397421.png)
 
-![1749384007041](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1749384007041.png)
+![1749384007041](images/1749384007041.png)
 
 ```java
 public int findKthNumber(int n, int k) {
@@ -2367,6 +2752,7 @@ private long countNumbersWithPrefix(int n, long prefix) {
 }
 ```
 
+<a id="p-91"></a>
 [91. 解码方法](https://leetcode.cn/problems/decode-ways/)
 
 动态规划，递推方程比较新颖
@@ -2395,6 +2781,7 @@ public int numDecodings(String s) {
     }
 ```
 
+<a id="p-442"></a>
 [442. 数组中重复的数据](https://leetcode.cn/problems/find-all-duplicates-in-an-array/)
 
 看题目，有一个非常重要的数据就是给你一个长度为 n 的整数数组 nums ，其中 nums 的所有整数都在**范围 [1, n] 内**，且每个整数出现 最多两次 。请你找出所有出现 两次 的整数，并以数组形式返回。
@@ -2416,6 +2803,7 @@ public List<Integer> findDuplicates(int[] nums) {
 }
 ```
 
+<a id="p-329"></a>
 [329. 矩阵中的最长递增路径](https://leetcode.cn/problems/longest-increasing-path-in-a-matrix/)
 
 DFS+记忆化，记忆化的方法，在DFS中增加保存当前位置的最大的逻辑。
@@ -2452,6 +2840,7 @@ int travel(int[][] matrix, int x, int y, int[][] dp) {
 }
 ```
 
+<a id="p-445"></a>
 [445. 两数相加 II](https://leetcode.cn/problems/add-two-numbers-ii/)
 
 细节非常多，推荐循环相加的时候使用新节点，反转两次就好  while(t1!=null||t2!=null||add!=0)
@@ -2501,6 +2890,7 @@ ListNode reversenode(ListNode l)
 }
 ```
 
+<a id="p-10"></a>
 [10. 正则表达式匹配](https://leetcode.cn/problems/regular-expression-matching/)
 
 初始化比较复杂，就是s串可能是空串或者p串是多个*串类似于\*a\*b\*c这样的串也可以匹配空串
@@ -2546,10 +2936,11 @@ public boolean isMatch(String s, String p) {
 
 ### 字节跳动高频题——圆环回原点问题
 
-![1749625554833](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1749625554833.png)
+![1749625554833](images/1749625554833.png)
 
-![1749625580240](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1749625580240.png)
+![1749625580240](images/1749625580240.png)
 
+<a id="p-347"></a>
 [347. 前 K 个高频元素](https://leetcode.cn/problems/top-k-frequent-elements/)
 
 推荐直接使用堆，调库，主要是注意怎么使用for遍历map的写法
@@ -2571,6 +2962,7 @@ public int[] topKFrequent(int[] nums, int k) {
     }
 ```
 
+<a id="p-208"></a>
 [208. 实现 Trie (前缀树)](https://leetcode.cn/problems/implement-trie-prefix-tree/)
 
 前缀树的实现，建树的时候用for循环迭代建树就可以了，然后有一个非常小的点，**建树的时候只有之前没有节点的时候才创建新节点，不然新创建节点会把之前的树顶掉，这样不对**
@@ -2620,11 +3012,12 @@ class Trie {
     }
 ```
 
+<a id="p-295"></a>
 [295. 数据流的中位数](https://leetcode.cn/problems/find-median-from-data-stream/)
 
 有一个问题是一开始的想法是都放左边的堆，只要size比右边大就poll一个过去
 
-![1749732020131](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1749732020131.png)
+![1749732020131](images/1749732020131.png)
 
 所以可行的办法是优先加入之后直接poll一个过去，如果另一个比这个多就poll回来，保证优先丢进去的堆的大小更多一点。
 
@@ -2659,6 +3052,7 @@ class MedianFinder {
 }
 ```
 
+<a id="p-106"></a>
 [106. 从中序与后序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 
 又死在索引上，一个是leftlen=idx-inleft，而不是＋1，因为左子树长度等于left到idx-1，第二个是右子树的post左边界是postleft+leftlen，又多加了一个1，不用加。
@@ -2764,6 +3158,7 @@ public int iceBreakingGame(int num, int target) {
 }
 ```
 
+<a id="p-213"></a>
 [213. 打家劫舍 II](https://leetcode.cn/problems/house-robber-ii/)
 
 极限压缩递推式，降到O(1)就可以
@@ -2806,6 +3201,7 @@ private int robRange(int[] nums, int start, int end) {
 }
 ```
 
+<a id="p-516"></a>
 [516. 最长回文子序列](https://leetcode.cn/problems/longest-palindromic-subsequence/)
 
 注意以后都用int的dp数组去解回文子序列和子数组的题，dp的含义是i到j最大回文序列长度
@@ -2830,10 +3226,12 @@ public int longestPalindromeSubseq(String s) {
     }
 ```
 
+<a id="p-189"></a>
 [189. 轮转数组](https://leetcode.cn/problems/rotate-array/)
 
 先k%=num.length,然后全面反转，再反转左边k，再反转右边
 
+<a id="p-225"></a>
 [225. 用队列实现栈](https://leetcode.cn/problems/implement-stack-using-queues/)
 
 一个应该也行，但是用两个，一个专门存栈顶，一个专门存轮转数组
@@ -2872,6 +3270,7 @@ class MyStack {
     }
 ```
 
+<a id="p-678"></a>
 [678. 有效的括号字符串](https://leetcode.cn/problems/valid-parenthesis-string/)
 
 贪心最快，两个变量，一个匹配最少的左括号数，一个是最多，如果最多都是负数，说明右括号太多了
@@ -2936,13 +3335,14 @@ private boolean check(char[] str, int idx, int left, Map<String, Boolean> memo) 
 }
 ```
 
+<a id="p-887"></a>
 [887. 鸡蛋掉落](https://leetcode.cn/problems/super-egg-drop/)
 
 ### **动态规划解法**
 
-![1764330239450](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1764330239450.png)
+![1764330239450](images/1764330239450.png)
 
-![1749874946371](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1749874946371.png)
+![1749874946371](images/1749874946371.png)
 
 楼层覆盖的情况，使用k个鸡蛋进行m次尝试可以覆盖的总楼层数
 
@@ -2980,6 +3380,7 @@ public int superEggDrop(int k, int n) {
 }
 ```
 
+<a id="p-384"></a>
 [384. 打乱数组](https://leetcode.cn/problems/shuffle-an-array/)
 
 使用两个数组备份，一个原数组不动，一个专门用来洗牌打乱，核心是学会洗牌算法
@@ -3017,6 +3418,7 @@ class Solution {
 }
 ```
 
+<a id="p-611"></a>
 [611. 有效三角形的个数](https://leetcode.cn/problems/valid-triangle-number/)
 
 我的想法是三重循环，但是时间复杂度很大，使用双指针，选取最长边然后left和right移动，每一次right-1如果还能满足条件说明从left到right-1的位置都可以形成三角形
@@ -3041,6 +3443,7 @@ public int triangleNumber(int[] nums) {
     }
 ```
 
+<a id="p-44"></a>
 [44. 通配符匹配](https://leetcode.cn/problems/wildcard-matching/)
 
 动态规划Boolean数组dp\[m][n]，表示的是能否在m和n前缀这样的条件下能否匹配上，初始化很难想，如果前面几个都是\*那初始化也要加上，匹配*的时候也有一点点难理解
@@ -3065,6 +3468,7 @@ public boolean isMatch(String s, String p) {
 }
 ```
 
+<a id="p-84"></a>
 [84. 柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/)
 
 双指针解法加上单调栈解法，非常抽象，双指针解法更快，但是用了动态规划的思想
@@ -3075,7 +3479,7 @@ public boolean isMatch(String s, String p) {
 
 插一句接雨水，初始化有讲究
 
-![1749906356980](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1749906356980.png)
+![1749906356980](images/1749906356980.png)
 
 ```java
 public int largestRectangleArea(int[] heights) {
@@ -3102,6 +3506,7 @@ public int largestRectangleArea(int[] heights) {
 }
 ```
 
+<a id="p-85"></a>
 [85. 最大矩形](https://leetcode.cn/problems/maximal-rectangle/)
 
 在会了84题的基础上，以每行为界，构造一个全新矩形，以第i行为底，每一列构造一个最大矩形的问题遍历就可以了，注意它是字符零而不是整数零。
@@ -3179,6 +3584,7 @@ public int largestRectangleArea(int[] heights) {
     }
 ```
 
+<a id="p-400"></a>
 [400. 第 N 位数字](https://leetcode.cn/problems/nth-digit/)
 
 数学推导找规律的思想，比较难想，就是一位的数字有1\*9 两位的数字2\*90 每占据一位就有count*k个位置被用掉，然后就是求num，它等于now+(n-1)/k    而得到的数字字符是charAt((n-1)%k)-'0'  每一个都需要一定的理解
@@ -3199,6 +3605,7 @@ public int findNthDigit(int n) {
     }
 ```
 
+<a id="p-134"></a>
 [134. 加油站](https://leetcode.cn/problems/gas-station/)
 
 贪心算法，首先如果所有的油比消耗的油多，直接返回-1就好，如果当前消耗的油比开始得到的油多，res=i+1，说明从0到i都不是起始点，然后当前now归零
@@ -3226,7 +3633,7 @@ public int canCompleteCircuit(int[] gas, int[] cost) {
 
 ### 三十六进制字符串相加
 
-![1749971489417](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1749971489417.png)
+![1749971489417](images/1749971489417.png)
 
 ```java
 int toint(char c)
@@ -3263,13 +3670,14 @@ int toint(char c)
     }
 ```
 
+<a id="p-395"></a>
 [395. 至少有 K 个重复字符的最长子串](https://leetcode.cn/problems/longest-substring-with-at-least-k-repeating-characters/)
 
 两种方法，分治法以及滑动窗口
 
 滑动窗口，维护两个变量，分别是达标的字符数valid以及不同字符的总数unique
 
-![1749975376888](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1749975376888.png)
+![1749975376888](images/1749975376888.png)
 
 ```java
 public int longestSubstring(String s, int k) {
@@ -3298,7 +3706,7 @@ public int longestSubstring(String s, int k) {
     }
 ```
 
-![1749976960025](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1749976960025.png)
+![1749976960025](images/1749976960025.png)
 
 ```java
 public int longestSubstring(String s, int k) {
@@ -3332,9 +3740,10 @@ public int longestSubstring(String s, int k) {
 }
 ```
 
+<a id="p-1004"></a>
 [1004. 最大连续1的个数 III](https://leetcode.cn/problems/max-consecutive-ones-iii/)
 
-![1750043828659](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1750043828659.png)
+![1750043828659](images/1750043828659.png)
 
 ```java
 public int longestOnes(int[] nums, int k) {
@@ -3355,6 +3764,7 @@ public int longestOnes(int[] nums, int k) {
     }
 ```
 
+<a id="p-97"></a>
 [97. 交错字符串](https://leetcode.cn/problems/interleaving-string/)
 
 初始化有点难搞，最开始的条件别忘了，递推方程含义是要么匹配S1，要么匹配S2
@@ -3446,6 +3856,7 @@ public String num2cn(int n) {
 }
 ```
 
+<a id="p-679"></a>
 [679. 24 点游戏](https://leetcode.cn/problems/24-game/)
 
 纯递归，没有简单解法
@@ -3492,6 +3903,7 @@ public boolean judgePoint24(int[] cards) {
     }
 ```
 
+<a id="p-316"></a>
 [316. 去除重复字母](https://leetcode.cn/problems/remove-duplicate-letters/)
 
 单调栈加贪心算法，有点难想
@@ -3526,6 +3938,7 @@ public String removeDuplicateLetters(String s) {
 }
 ```
 
+<a id="p-264"></a>
 [264. 丑数 II](https://leetcode.cn/problems/ugly-number-ii/)
 
 使用动态规划，然后慢慢移动3个指针，每一次找最小最近的丑数
@@ -3554,6 +3967,7 @@ public int nthUglyNumber(int n) {
 }
 ```
 
+<a id="p-673"></a>
 [673. 最长递增子序列的个数](https://leetcode.cn/problems/number-of-longest-increasing-subsequence/)
 
 ```java
@@ -3599,9 +4013,10 @@ public int findNumberOfLIS(int[] nums) {
 }
 ```
 
+<a id="p-494"></a>
 [494. 目标和](https://leetcode.cn/problems/target-sum/)
 
-![1750260811317](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1750260811317.png)
+![1750260811317](images/1750260811317.png)
 
 ```java
 public int findTargetSumWays(int[] nums, int target) {
@@ -3622,6 +4037,7 @@ public int findTargetSumWays(int[] nums, int target) {
     }
 ```
 
+<a id="p-670"></a>
 [670. 最大交换](https://leetcode.cn/problems/maximum-swap/)
 
 是九就跳过，只要有一个数字在后面比它大，就更新maxidx，最后还需要判断这个max是和原来就一样么，一样就不换了。
@@ -3690,6 +4106,7 @@ public boolean checkDynasty(int[] places) {
 }
 ```
 
+<a id="p-416"></a>
 [416. 分割等和子集](https://leetcode.cn/problems/partition-equal-subset-sum/)
 
 两个注意的点
@@ -3712,6 +4129,7 @@ public boolean canPartition(int[] nums) {
     }
 ```
 
+<a id="p-459"></a>
 [459. 重复的子字符串](https://leetcode.cn/problems/repeated-substring-pattern/)
 
 自己想出来的非常聪明
@@ -3734,10 +4152,12 @@ public boolean repeatedSubstringPattern(String s) {
     }
 ```
 
+<a id="p-111"></a>
 [111. 二叉树的最小深度](https://leetcode.cn/problems/minimum-depth-of-binary-tree/)
 
-![1750423158104](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1750423158104.png)
+![1750423158104](images/1750423158104.png)
 
+<a id="p-443"></a>
 [443. 压缩字符串](https://leetcode.cn/problems/string-compression/)
 
 写入的时候双指针，然后移动
@@ -3769,6 +4189,7 @@ public int compress(char[] chars) {
     }
 ```
 
+<a id="p-168"></a>
 [168. Excel 表列名称](https://leetcode.cn/problems/excel-sheet-column-title/)
 
 26进制
@@ -3788,8 +4209,9 @@ public String convertToTitle(int columnNumber) {
     }
 ```
 
-![1750425818439](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1750425818439.png)
+![1750425818439](images/1750425818439.png)
 
+<a id="p-343"></a>
 [343. 整数拆分](https://leetcode.cn/problems/integer-break/)=
 
 ```java
@@ -3803,6 +4225,7 @@ public String convertToTitle(int columnNumber) {
         return dp[n];
 ```
 
+<a id="p-37"></a>
 [37. 解数独](https://leetcode.cn/problems/sudoku-solver/)
 
 一个是递归逻辑，一个是check查九宫格的时候
@@ -3836,6 +4259,7 @@ public String convertToTitle(int columnNumber) {
         }
 ```
 
+<a id="p-567"></a>
 [567. 字符串的排列](https://leetcode.cn/problems/permutation-in-string/)
 
 ```java
@@ -3876,6 +4300,7 @@ private void swap(char[] num, int i, int j) {
 }
 ```
 
+<a id="p-503"></a>
 [503. 下一个更大元素 II](https://leetcode.cn/problems/next-greater-element-ii/)
 
 单调栈两次加入
@@ -3901,11 +4326,12 @@ public int[] nextGreaterElements(int[] nums) {
     }
 ```
 
+<a id="p-556"></a>
 [556. 下一个更大元素 III](https://leetcode.cn/problems/next-greater-element-iii/)
 
 数学单调性的运用
 
-![1764989155410](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1764989155410.png)
+![1764989155410](images/1764989155410.png)
 
 ```java
     public int nextGreaterElement(int n) {
@@ -3942,6 +4368,7 @@ public int[] nextGreaterElements(int[] nums) {
     }
 ```
 
+<a id="p-378"></a>
 [378. 有序矩阵中第 K 小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/)
 
 ```java
@@ -4030,6 +4457,7 @@ public String crackPassword(int[] password) {
     }
 ```
 
+<a id="p-260"></a>
 [260. 只出现一次的数字 III](https://leetcode.cn/problems/single-number-iii/)
 
 ```java
@@ -4052,10 +4480,11 @@ public int[] singleNumber(int[] nums) {
     }
 ```
 
-![1751071685109](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1751071685109.png)
+![1751071685109](images/1751071685109.png)
 
-![1751071806121](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1751071806121.png)
+![1751071806121](images/1751071806121.png)
 
+<a id="p-18"></a>
 [18. 四数之和](https://leetcode.cn/problems/4sum/)
 
 核心代码：
@@ -4098,10 +4527,12 @@ if(root==null) return;
         }
 ```
 
+<a id="p-86"></a>
 [86. 分隔链表](https://leetcode.cn/problems/partition-list/)
 
 核心思想是别想着就在这一个链表上做改动，我们新开两个头节点，一个存小于x的其他的存另一个，最后第二个末尾要置为空。
 
+<a id="p-1444"></a>
 [1444. 切披萨的方案数](https://leetcode.cn/problems/number-of-ways-of-cutting-a-pizza/)
 
 ### 切披萨问题详解：1444. 切披萨的方案数
@@ -4449,6 +4880,7 @@ public int inventoryManagement(int[] stock) {
     }
 ```
 
+<a id="p-1044"></a>
 [1044. 最长重复子串](https://leetcode.cn/problems/longest-duplicate-substring/)
 
 玄学，二分查找加滚动哈希
@@ -4518,12 +4950,14 @@ public class Solution {
 }
 ```
 
+<a id="p-380"></a>
 [380. O(1) 时间插入、删除和获取随机元素](https://leetcode.cn/problems/insert-delete-getrandom-o1/)
 
 核心数据结构
 
-![1751286120344](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1751286120344.png)
+![1751286120344](images/1751286120344.png)
 
+<a id="p-410"></a>
 [410. 分割数组的最大值](https://leetcode.cn/problems/split-array-largest-sum/)
 
 二分查找加贪心策略
@@ -4592,6 +5026,7 @@ public int splitArray(int[] nums, int k) {
     }
 ```
 
+<a id="p-6"></a>
 [6. Z 字形变换](https://leetcode.cn/problems/zigzag-conversion/)
 
 有两个注意的点，一个是如果只有一行可以直接返回，然后sb初始化不能用for(Stringbuilder s:sbs)循环要用下标去遍历
@@ -4605,6 +5040,7 @@ if (numRows == 1 || s.length() <= numRows) {
             sbs[i]=new StringBuilder();
 ```
 
+<a id="p-622"></a>
 [622. 设计循环队列](https://leetcode.cn/problems/design-circular-queue/)
 
 可以引入size变量用来判空和满，这样不会损失一个格子
@@ -4672,6 +5108,7 @@ class MyCircularQueue {
 }
 ```
 
+<a id="p-301"></a>
 [301. 删除无效的括号](https://leetcode.cn/problems/remove-invalid-parentheses/)
 
 贪心加回溯加剪枝
@@ -4730,6 +5167,7 @@ HashSet<String> hs = new HashSet<>(); // 结果集
     }
 ```
 
+<a id="p-863"></a>
 [863. 二叉树中所有距离为 K 的结点](https://leetcode.cn/problems/all-nodes-distance-k-in-binary-tree/)
 
 怎样从一个节点找到到其他节点的距离呢，这是一个好方法，建立节点映射父节点的hm，然后每次向三个方向BFS然后到达相应的距离之后全部存起来返回就可以了。
@@ -4777,6 +5215,7 @@ HashSet<String> hs = new HashSet<>(); // 结果集
     }
 ```
 
+<a id="p-115"></a>
 [115. 不同的子序列](https://leetcode.cn/problems/distinct-subsequences/)
 
 dp下标表示从i-1能匹配多少个到j-1下标的子序列
@@ -4800,6 +5239,7 @@ public int numDistinct(String s, String t) {
     }
 ```
 
+<a id="p-257"></a>
 [257. 二叉树的所有路径](https://leetcode.cn/problems/binary-tree-paths/)
 
 注意一下对于箭头的回溯，比较有意思，使用sb的setlength方法，先记录原先的值，后面再直接设定就行，这样做的原因是原来的数字可能不止一位，所以需要这样设置
@@ -4834,6 +5274,7 @@ class Solution {
 }
 ```
 
+<a id="p-188"></a>
 [188. 买卖股票的最佳时机 IV](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/)
 
 依然不是那么简单的，一维的话意思是遍历每一个天数，先用第0天进行初始化，之后遍历每一天，不过在遍历内层循环的时候是从1开始，因为dp[0]一直都是0，表示没有进行任何买卖
@@ -4929,6 +5370,7 @@ public int[] getMaxMatrix(int[][] matrix) {
 }
 ```
 
+<a id="p-438"></a>
 [438. 找到字符串中所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string/)
 
 使用两个数组直接使用函数比较
@@ -4975,12 +5417,14 @@ public List<Integer> findAnagrams(String s, String p) {
 }
 ```
 
+<a id="p-528"></a>
 [528. 按权重随机选择](https://leetcode.cn/problems/random-pick-with-weight/)
 
 使用前缀和，最后一个前缀和就是总和了，然后总和拿一个随机数，看它的区间选择下标
 
 快一点，前缀和数组加上二分去找，判断条件是比当前前缀和少但是比左边前缀和大
 
+<a id="p-862"></a>
 [862. 和至少为 K 的最短子数组](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k/)
 
 因为k是大于0的，所以可以使用前缀和算出前缀和，并且双端队列内保持递增的顺序，然后看减去第一个下标的前缀和是不是符合要求，循环判断找最小长度
@@ -5017,6 +5461,7 @@ public int shortestSubarray(int[] nums, int k) {
 }
 ```
 
+<a id="p-554"></a>
 [554. 砖墙](https://leetcode.cn/problems/brick-wall/)
 
 ```java
@@ -5041,6 +5486,7 @@ public int leastBricks(List<List<Integer>> wall) {
 }
 ```
 
+<a id="p-13"></a>
 [13. 罗马数字转整数](https://leetcode.cn/problems/roman-to-integer/)
 
 哈希表，找规律，发现左边字母比右边小说明是减掉
@@ -5069,6 +5515,7 @@ public int romanToInt(String s) {
 }
 ```
 
+<a id="p-525"></a>
 [525. 连续数组](https://leetcode.cn/problems/contiguous-array/)
 
 ```java
@@ -5107,6 +5554,7 @@ public int findMaxLength(int[] nums) {
 }
 ```
 
+<a id="p-1262"></a>
 [1262. 可被三整除的最大和](https://leetcode.cn/problems/greatest-sum-divisible-by-three/)
 
 动态规划，用int[3] 存0-2余数的当前数字最大和，然后每个数字都要重新分配一个数组，然后newdp重新计算之后赋值给dp
@@ -5155,6 +5603,7 @@ public static String decimalToIp(long decimal) {
 
 建立原node和新node之间的一个映射，这样遍历原链表或者hm的keyset可以建立两个指针的映射。
 
+<a id="p-1095"></a>
 [1095. 山脉数组中查找目标值](https://leetcode.cn/problems/find-in-mountain-array/)
 
 二分查找先找到山顶，判断条件是山顶左右两个元素都比他小，然后找到山顶后从0到山顶，山顶+1到最后一个下标。从左边递增区间一个函数找，找到直接返回，如果没有就右边递减区间一个函数找，找到返回否则返回-1
@@ -5201,6 +5650,7 @@ public int[] smallestK(int[] arr, int k) {
     }
 ```
 
+<a id="p-946"></a>
 [946. 验证栈序列](https://leetcode.cn/problems/validate-stack-sequences/)
 
 模拟栈操作，遇到元素就入栈，然后循环判断下标是不是可以出栈。
@@ -5249,6 +5699,7 @@ public void hanota(List<Integer> A, List<Integer> B, List<Integer> C) {
     }
 ```
 
+<a id="p-540"></a>
 [540. 有序数组中的单一元素](https://leetcode.cn/problems/single-element-in-a-sorted-array/)
 
 可以全部异或或者二分缩小范围，如果当前右侧一个和它相等且下标是偶数或者左边一个相等且下标是奇数，说明在右边，不然在左边
@@ -5269,6 +5720,7 @@ public int singleNonDuplicate(int[] nums) {
     }
 ```
 
+<a id="p-172"></a>
 [172. 阶乘后的零](https://leetcode.cn/problems/factorial-trailing-zeroes/)
 
 贪心算法，每除以一个5得到的结果就是5的倍数，25的倍数（两个5），125（三个5）
@@ -5284,6 +5736,7 @@ public int trailingZeroes(int n){
     }
 ```
 
+<a id="p-204"></a>
 [204. 计数质数](https://leetcode.cn/problems/count-primes/)
 
 #### 埃氏筛，从二开始然后对质数的倍数进行标记，从i*i开始
@@ -5309,6 +5762,7 @@ public int countPrimes(int n) {
     }
 ```
 
+<a id="p-109"></a>
 [109. 有序链表转换二叉搜索树](https://leetcode.cn/problems/convert-sorted-list-to-binary-search-tree/)
 
 先把所有的值放到一个列表里面，然后使用二分分别构建二叉树
@@ -5335,6 +5789,7 @@ public TreeNode sortedListToBST(ListNode head) {
     }
 ```
 
+<a id="p-680"></a>
 [680. 验证回文串 II](https://leetcode.cn/problems/valid-palindrome-ii/)
 
 只有一次删除的机会，所以只要有一个不相等就进入特殊情况然后返回就好
@@ -5366,10 +5821,12 @@ public TreeNode sortedListToBST(ListNode head) {
     }
 ```
 
+<a id="p-109-2"></a>
 [109. 有序链表转换二叉搜索树](https://leetcode.cn/problems/convert-sorted-list-to-binary-search-tree/)
 
 先把有序链表放到arraylist里面，然后就转化成了用有序数组构建二叉树，用二分法直接访问中间元素，然后左右建树就完成了，更快的方法是用指针移动访问长度的元素，这样快一点。
 
+<a id="p-547"></a>
 [547. 省份数量](https://leetcode.cn/problems/number-of-provinces/)
 
 两个想法，一个是采用并查集，看看有多少个连通分量，注意在最后是要用哈希表去重，并且有些father没有路径压缩要记得去压缩再加入。第二个是采用dfs然后加上visited表看看有几个连通分量，速度更快一点
@@ -5448,6 +5905,7 @@ public int search(int[] arr, int target) {
     }
 ```
 
+<a id="p-617"></a>
 [617. 合并二叉树](https://leetcode.cn/problems/merge-two-binary-trees/)
 
 如果为空直接返回另一个就好，然后加入root1中
@@ -5463,6 +5921,7 @@ public TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
     }
 ```
 
+<a id="p-386"></a>
 [386. 字典序排数](https://leetcode.cn/problems/lexicographical-numbers/)
 
 使用DFS就可以了，贪心选择从1到9的数字然后一个个×10再加入个位数添加
@@ -5488,6 +5947,7 @@ ArrayList<Integer> res=new ArrayList<>();
     }
 ```
 
+<a id="p-523"></a>
 [523. 连续的子数组和](https://leetcode.cn/problems/continuous-subarray-sum/)
 
 前缀和加上哈希表，存的是余数对应下标，因为只要余数相等他们的差即中间的东西加起来肯定是k的倍数
@@ -5511,6 +5971,7 @@ public boolean checkSubarraySum(int[] nums, int k) {
     }
 ```
 
+<a id="p-334"></a>
 [334. 递增的三元子序列](https://leetcode.cn/problems/increasing-triplet-subsequence/)
 
 贪心算法，找当前最小的第一个数，如果比第一个数小，置换它，不然找最小的第二个数，如果小，置换它，如果这个数既不比第一个小，也不比第二个小，那就是第三个数了返回true；
@@ -5532,6 +5993,7 @@ public boolean increasingTriplet(int[] nums) {
     }
 ```
 
+<a id="p-974"></a>
 [974. 和可被 K 整除的子数组](https://leetcode.cn/problems/subarray-sums-divisible-by-k/)
 
 看前面两个的解析，通过前缀和得到所有余数的前缀和，然后每个有两个余数以上的都有(n-1)*n/2个子序列达成目标
@@ -5556,6 +6018,7 @@ public int subarraysDivByK(int[] nums, int k) {
     }
 ```
 
+<a id="p-49"></a>
 [49. 字母异位词分组](https://leetcode.cn/problems/group-anagrams/)
 
 字母异位词可以把string转成char[ ]然后排序，再转成String，这样就有唯一字典序的key了，再用hashmap一一放进去
@@ -5583,6 +6046,7 @@ public List<List<String>> groupAnagrams(String[] strs) {
     }
 ```
 
+<a id="p-994"></a>
 [994. 腐烂的橘子](https://leetcode.cn/problems/rotting-oranges/)
 
 BFS加入腐烂橘子坐标，最后再判断是不是还有没腐烂的橘子
@@ -5623,6 +6087,7 @@ public int orangesRotting(int[][] grid) {
     }
 ```
 
+<a id="p-1556"></a>
 [1556. 千位分隔数](https://leetcode.cn/problems/thousand-separator/)
 
 直接字符串处理，感觉也可以在原串逆着输入，碰到三的倍数就加入 . ，这样会更容易想
@@ -5643,6 +6108,7 @@ public String thousandSeparator(int n) {
     }
 ```
 
+<a id="p-233"></a>
 [233. 数字 1 的个数](https://leetcode.cn/problems/number-of-digit-one/)
 
 困难题
@@ -5685,8 +6151,9 @@ public int countDigitOne(int n) {
 
 当当前位大于1的时候，高位可以满足0到high的high+1种可能
 
-![1756298328113](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1756298328113.png)
+![1756298328113](images/1756298328113.png)
 
+<a id="p-315"></a>
 [315. 计算右侧小于当前元素的个数](https://leetcode.cn/problems/count-of-smaller-numbers-after-self/)
 
 ```java
@@ -5800,6 +6267,7 @@ private static void merge2(int[] res, int[] index, int[] nums, int left, int mid
 }
 ```
 
+<a id="p-1312"></a>
 [1312. 让字符串成为回文串的最少插入次数](https://leetcode.cn/problems/minimum-insertion-steps-to-make-a-string-palindrome/)
 
 思路非常简单，就是找到字符串的最长回文子序列长度，然后用字符串长度减去这个长度剩下的就是要插入的次数
@@ -5820,6 +6288,7 @@ public int minInsertions(String s) {
     }
 ```
 
+<a id="p-407"></a>
 [407. 接雨水 II](https://leetcode.cn/problems/trapping-rain-water-ii/)
 
 三维的接雨水,最小堆存边界高度，然后一个个访问内部的块，当前水位高度取决于边界的最低高度，然后不断加入队列从外围一直加到里面，外围的高度会一直扩散到里面
@@ -5867,9 +6336,10 @@ public int trapRainWater(int[][] heightMap) {
     }
 ```
 
+<a id="p-437"></a>
 [437. 路径总和 III](https://leetcode.cn/problems/path-sum-iii/)
 
-![1756362201483](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1756362201483.png)
+![1756362201483](images/1756362201483.png)
 
 ```java
 	HashMap<Long,Integer> hm=new HashMap<>();
@@ -5972,6 +6442,7 @@ List<List<String>> res=new ArrayList<>();
     }
 ```
 
+<a id="p-902"></a>
 [902. 最大为 N 的数字组合](https://leetcode.cn/problems/numbers-at-most-n-given-digit-set/)
 
 分为两部分，位数小于k的数字和位数等于k的数字，位数等于k的数字比较第一位，如果当前位小的话就可以加上pow的k-1位，因为肯定小于界限值，如果相等就加上下面一位的可能性，如果大于那就直接跳过
@@ -6007,6 +6478,7 @@ public int atMostNGivenDigitSet(String[] digits, int n) {
     }
 ```
 
+<a id="p-60"></a>
 [60. 排列序列](https://leetcode.cn/problems/permutation-sequence/)
 
 背吧，数学方法，先生成阶乘数组，然后看底下吧，每位的索引除以当前阶乘，加入之后移除掉这个元素再用k取余，真是米奇妙妙屋
@@ -6039,6 +6511,7 @@ public String getPermutation(int n, int k) {
     }
 ```
 
+<a id="p-238"></a>
 [238. 除自身以外数组的乘积](https://leetcode.cn/problems/product-of-array-except-self/)
 
 构造前后缀乘积数组，然后数组的含义是排除掉当前数字的其他前后缀的乘积
@@ -6060,6 +6533,7 @@ public int[] productExceptSelf(int[] nums) {
     }
 ```
 
+<a id="p-628"></a>
 [628. 三个数的最大乘积](https://leetcode.cn/problems/maximum-product-of-three-numbers/)
 
 思路一，排序然后
@@ -6097,9 +6571,10 @@ public int maximumProduct(int[] nums) {
     }
 ```
 
+<a id="p-658"></a>
 [658. 找到 K 个最接近的元素](https://leetcode.cn/problems/find-k-closest-elements/)
 
-![1756518717255](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1756518717255.png)
+![1756518717255](images/1756518717255.png)
 
 ```java
 public List<Integer> findClosestElements(int[] arr, int k, int x) {
@@ -6117,6 +6592,7 @@ public List<Integer> findClosestElements(int[] arr, int k, int x) {
     }
 ```
 
+<a id="p-68"></a>
 [68. 文本左右对齐](https://leetcode.cn/problems/text-justification/)
 
 脉络非常清晰，看注释吧
@@ -6176,6 +6652,7 @@ public List<String> fullJustify(String[] words, int maxWidth) {
     }
 ```
 
+<a id="p-845"></a>
 [845. 数组中的最长山脉](https://leetcode.cn/problems/longest-mountain-in-array/)
 
 前后缀最长数组，前后缀的意思是除了当前位置之外，前面或者后面最长的递增和递减长度是多少
@@ -6196,9 +6673,10 @@ public int longestMountain(int[] arr) {
     }
 ```
 
+<a id="p-486"></a>
 [486. 预测赢家](https://leetcode.cn/problems/predict-the-winner/)
 
-![1756614370117](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1756614370117.png)
+![1756614370117](images/1756614370117.png)
 
 二维的
 
@@ -6241,6 +6719,7 @@ public boolean predictTheWinner(int[] nums) {
     }
 ```
 
+<a id="p-735"></a>
 [735. 小行星碰撞](https://leetcode.cn/problems/asteroid-collision/)
 
 使用栈结构是比较难想的，然后
@@ -6281,6 +6760,7 @@ public boolean predictTheWinner(int[] nums) {
     }
 ```
 
+<a id="p-73"></a>
 [73. 矩阵置零](https://leetcode.cn/problems/set-matrix-zeroes/)
 
 使用原地算法，那么我们可以做上标记，把要置零的行和列设为true，然后再统一置零
@@ -6307,6 +6787,7 @@ public void setZeroes(int[][] matrix) {
     }
 ```
 
+<a id="p-456"></a>
 [456. 132 模式](https://leetcode.cn/problems/132-pattern/)
 
 使用一个单调递减栈就可以解决问题
@@ -6365,6 +6846,7 @@ public char dismantlingAction(String arr) {
     }
 ```
 
+<a id="p-435"></a>
 [435. 无重叠区间](https://leetcode.cn/problems/non-overlapping-intervals/)
 
 反向思维，结果 = 总区间数 - 最大不重叠区间数
@@ -6395,6 +6877,7 @@ public int eraseOverlapIntervals(int[][] intervals) {
 }
 ```
 
+<a id="p-907"></a>
 [907. 子数组的最小值之和](https://leetcode.cn/problems/sum-of-subarray-minimums/)
 
 单调最小栈，保留当前最小的值的下标，如果被替换掉了就可以算出它是多少个子数组的最小的候选值，等于左侧范围乘以右侧范围，这个初始化和终结计算栈非常有
@@ -6420,6 +6903,7 @@ public int sumSubarrayMins(int[] arr) {
     }
 ```
 
+<a id="p-306"></a>
 [306. 累加数](https://leetcode.cn/problems/additive-number/)
 
 要使用大整数加法不然会溢出
@@ -6461,6 +6945,7 @@ class Solution {
 }
 ```
 
+<a id="p-149"></a>
 [149. 直线上最多的点数](https://leetcode.cn/problems/max-points-on-a-line/)
 
 使用直线公式，斜率相等来计算，这样三重循环的顺序可以比较好的剪枝
@@ -6489,6 +6974,7 @@ public int maxPoints(int[][] points) {
     }
 ```
 
+<a id="p-166"></a>
 [166. 分数到小数](https://leetcode.cn/problems/fraction-to-recurring-decimal/)
 
 只能这么写，毁灭吧，必须用long，然后还要考虑负数
@@ -6532,6 +7018,7 @@ public String fractionToDecimal(int numerator, int denominator) {
     }
 ```
 
+<a id="p-452"></a>
 [452. 用最少数量的箭引爆气球](https://leetcode.cn/problems/minimum-number-of-arrows-to-burst-balloons/)
 
 贪心，有多少不重合的区间就行，这个是两端不包括的所以不加等号
@@ -6573,6 +7060,7 @@ public int digitOneInNumber(int num) {
     }
 ```
 
+<a id="p-312"></a>
 [312. 戳气球](https://leetcode.cn/problems/burst-balloons/)
 
 动态规划，从小的区间逐步扩展到大的区间，这个dp递推还是比较新的，第一次碰到
@@ -6603,11 +7091,12 @@ public int maxCoins(int[] nums) {
     }
 ```
 
+<a id="p-29"></a>
 [29. 两数相除](https://leetcode.cn/problems/divide-two-integers/)
 
 位移法相除，有几个点，一个是最小值溢出，一个是要判断符号，一个是扩展成long，不然会超时死循环，位移法，逐渐增加二的倍数
 
-![1756880042766](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1756880042766.png)
+![1756880042766](images/1756880042766.png)
 
 ```java
 class Solution {
@@ -6646,6 +7135,7 @@ class Solution {
 }
 ```
 
+<a id="p-164"></a>
 [164. 最大间距](https://leetcode.cn/problems/maximum-gap/)
 
 桶排序思想，把所有数据均匀放到桶里面，然后最大间距就是某个桶的最大值和下一个桶最小值的间距
@@ -6694,6 +7184,7 @@ public int maximumGap(int[] nums) {
 }
 ```
 
+<a id="p-4-2"></a>
 [4. 寻找两个正序数组的中位数](https://leetcode.cn/problems/median-of-two-sorted-arrays/)
 
 变种题，寻找两个正序数组的第K小的元素
@@ -6822,6 +7313,7 @@ class LRUCache {
 }
 ```
 
+<a id="p-836"></a>
 [836. 矩形重叠](https://leetcode.cn/problems/rectangle-overlap/)
 
 矩形四条边底下两个取最大值，上面两个取最小值
@@ -6838,6 +7330,7 @@ public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
     }
 ```
 
+<a id="p-67"></a>
 [67. 二进制求和](https://leetcode.cn/problems/add-binary/)
 
 求和方法就和正常数学计算一样，从最低位开始加，然后还有进位也要算进去
@@ -6859,6 +7352,7 @@ public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
     }
 ```
 
+<a id="p-698"></a>
 [698. 划分为k个相等的子集](https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/)
 
 回溯加剪枝
@@ -6893,6 +7387,7 @@ public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
     }
 ```
 
+<a id="p-581"></a>
 [581. 最短无序连续子数组](https://leetcode.cn/problems/shortest-unsorted-continuous-subarray/)
 
 找到两个不是升序的边界就可以
@@ -6923,6 +7418,7 @@ public int findUnsortedSubarray(int[] nums) {
 }
 ```
 
+<a id="p-133"></a>
 [133. 克隆图](https://leetcode.cn/problems/clone-graph/)
 
 深广搜再建立一遍就好了
@@ -6953,6 +7449,7 @@ HashMap<Integer,Node> hm;
     }
 ```
 
+<a id="p-986"></a>
 [986. 区间列表的交集](https://leetcode.cn/problems/interval-list-intersections/)
 
 双指针，左边界是两个区间左边界较大值，右边界是两个区间右边界较小值，哪个右边界小，哪个指针就往后移动一格
@@ -6983,6 +7480,7 @@ public int[][] intervalIntersection(int[][] firstList, int[][] secondList) {
     }
 ```
 
+<a id="p-405"></a>
 [405. 数字转换为十六进制数](https://leetcode.cn/problems/convert-a-number-to-hexadecimal/)
 
 注意一下无符号右移，如果是两条杠的话指的意思是有符号的右移，如果是负数会在左侧补1陷入死循环
@@ -7002,11 +7500,11 @@ public String toHex(int num) {
     }
 ```
 
-![1757135617797](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1757135617797.png)
+![1757135617797](images/1757135617797.png)
 
 ### 求某一个数组的小和  [快手为何频繁考察这道Leetcode里没有的题](https://mp.weixin.qq.com/s/rMsbcUf9ZPhvfRoyZGW6HA)
 
-![1757136194822](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1757136194822.png)
+![1757136194822](images/1757136194822.png)
 
 ```java
 public class SmallSum {
@@ -7062,6 +7560,7 @@ public int cuttingBamboo(int bamboo_len) {
     }
 ```
 
+<a id="p-99"></a>
 [99. 恢复二叉搜索树](https://leetcode.cn/problems/recover-binary-search-tree/)
 
 核心是找到第一个降序pre和最后一个降序root
@@ -7091,6 +7590,7 @@ TreeNode pre,n1,n2;
     }
 ```
 
+<a id="p-137"></a>
 [137. 只出现一次的数字 II](https://leetcode.cn/problems/single-number-ii/)
 
 使用变量记录出现的次数，这是出现了三次
@@ -7115,6 +7615,7 @@ public int singleNumber(int[] nums) {
     }
 ```
 
+<a id="p-30"></a>
 [30. 串联所有单词的子串](https://leetcode.cn/problems/substring-with-concatenation-of-all-words/)
 
 滑动窗口，除了滑动窗口还有很多要思考的细节
@@ -7167,6 +7668,7 @@ public List<Integer> findSubstring(String s, String[] words) {
     }
 ```
 
+<a id="p-1293"></a>
 [1293. 网格中的最短路径](https://leetcode.cn/problems/shortest-path-in-a-grid-with-obstacles-elimination/)
 
 BFS，剪枝，注意剩余次数存的是visited数组，这样不同次数的相同节点可以再次入队
@@ -7218,6 +7720,7 @@ public int shortestPath(int[][] grid, int k) {
     }
 ```
 
+<a id="p-1206"></a>
 [1206. 设计跳表](https://leetcode.cn/problems/design-skiplist/)
 
 ```java
@@ -7341,6 +7844,7 @@ class Skiplist {
 }
 ```
 
+<a id="p-451"></a>
 [451. 根据字符出现频率排序](https://leetcode.cn/problems/sort-characters-by-frequency/)
 
 选择数据结构，选择hashmap统计字符频率或者使用二维数组 [128] [2]来统计，再写一个排序规则就好
@@ -7401,6 +7905,7 @@ public String frequencySort(String s) {
 }
 ```
 
+<a id="p-889"></a>
 [889. 根据前序和后序遍历构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
 
 找到规律，后序的倒数第二个值就是右子树的子节点，也就是前序左子树最后一个节点的下一个值
@@ -7426,6 +7931,7 @@ public TreeNode constructFromPrePost(int[] preorder, int[] postorder) {
     }
 ```
 
+<a id="p-1171"></a>
 [1171. 从链表中删去总和值为零的连续节点](https://leetcode.cn/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)
 
 ```java
@@ -7537,7 +8043,7 @@ public int lengthOfLongestSubstringTwoDistinct(String s) {
 
 [LCR 190. 加密运算](https://leetcode.cn/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/)
 
-![1757417233969](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1757417233969.png)
+![1757417233969](images/1757417233969.png)
 
 不使用四则运算完成加法，算法解析是这样的
 
@@ -7579,6 +8085,7 @@ public int[][] fileCombination(int target) {
     }
 ```
 
+<a id="p-321"></a>
 [321. 拼接最大数](https://leetcode.cn/problems/create-maximum-number/)
 
 ```java
@@ -7675,6 +8182,7 @@ private int compareSequences(int[] seq1, int i, int[] seq2, int j) {
 }
 ```
 
+<a id="p-722"></a>
 [722. 删除注释](https://leetcode.cn/problems/remove-comments/)
 
 一个字符一个字符读进来，遇到行注释跳过剩余部分，遇到块注释往后找结束标记，如果不是在块注释并且当前行不空加入这行的信息
@@ -7725,6 +8233,7 @@ public List<String> removeComments(String[] source) {
     }
 ```
 
+<a id="p-381"></a>
 [381. O(1) 时间插入、删除和获取随机元素 - 允许重复](https://leetcode.cn/problems/insert-delete-getrandom-o1-duplicates-allowed/)
 
 一个动态数组，一个map存值和对应的下标集合，还有一个随机数要生成，取size随机值在动态数组访问就行
@@ -7813,6 +8322,7 @@ static double lifanggen(double x)
     }
 ```
 
+<a id="p-214"></a>
 [214. 最短回文串](https://leetcode.cn/problems/shortest-palindrome/)
 
 主要使用了kmp算法，对于回文串，我们给的策略是逆向遍历，如果最前面的下标和最后面的下标值相等那两边都往中间移一格
@@ -7858,6 +8368,7 @@ static double lifanggen(double x)
     }
 ```
 
+<a id="p-559"></a>
 [559. N 叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-n-ary-tree/)
 
 BFS很容易了，别忘记还有递归的方式
@@ -7875,6 +8386,7 @@ public int maxDepth(Node root) {
     }
 ```
 
+<a id="p-57"></a>
 [57. 插入区间](https://leetcode.cn/problems/insert-interval/)
 
 贪心策略，除了重叠情况还有三种，已经加过新区间，在新区间左边，在新区间右边，重叠的时候动态选择当前新区间范围
@@ -7915,6 +8427,7 @@ public int[][] insert(int[][] intervals, int[] newInterval) {
     }
 ```
 
+<a id="p-140"></a>
 [140. 单词拆分 II](https://leetcode.cn/problems/word-break-ii/)
 
 回溯，哈希表查当前字串是不是包含在里面
@@ -7953,6 +8466,7 @@ HashSet<String> hs;
     }
 ```
 
+<a id="p-273"></a>
 [273. 整数转换英文表示](https://leetcode.cn/problems/integer-to-english-words/)
 
 ```java
@@ -8010,6 +8524,7 @@ HashSet<String> hs;
     }
 ```
 
+<a id="p-767"></a>
 [767. 重构字符串](https://leetcode.cn/problems/reorganize-string/)
 
 哈希表存字符频率，优先队列排序最大频率，主要是构建字符的时候要贪心，取最大的两个元素，然后频率减一再放进去
@@ -8046,6 +8561,7 @@ public String reorganizeString(String s) {
     }
 ```
 
+<a id="p-875"></a>
 [875. 爱吃香蕉的珂珂](https://leetcode.cn/problems/koko-eating-bananas/)
 
 ```java
@@ -8120,6 +8636,7 @@ public static void stackSort(Stack<Integer> mainStack) {
     }
 ```
 
+<a id="p-421"></a>
 [421. 数组中两个数的最大异或值](https://leetcode.cn/problems/maximum-xor-of-two-numbers-in-an-array/)
 
 ```java
@@ -8190,6 +8707,7 @@ public double[] statisticsProbability(int num) {
 
 ```
 
+<a id="p-1146"></a>
 [1146. 快照数组](https://leetcode.cn/problems/snapshot-array/)
 
 设计一个什么样的数据结构可以达到这个效果呢？建一个List<int[]>[] snapshots; 这是第一次碰到这个数据结构
@@ -8265,6 +8783,7 @@ Node pre,head;
     }
 ```
 
+<a id="p-1044-2"></a>
 [1044. 最长重复子串](https://leetcode.cn/problems/longest-duplicate-substring/)
 
 难的想死，受不了了
@@ -8332,6 +8851,7 @@ public class Solution {
 
 ```
 
+<a id="p-895"></a>
 [895. 最大频率栈](https://leetcode.cn/problems/maximum-frequency-stack/)
 
 主要是三个，hm对应数字频率哈希，group对应频率和元素集合哈希，以及最大频率值
@@ -8394,6 +8914,7 @@ class FreqStack {
 }
 ```
 
+<a id="p-918"></a>
 [918. 环形子数组的最大和](https://leetcode.cn/problems/maximum-sum-circular-subarray/)
 
 ```java
@@ -8491,6 +9012,7 @@ private static boolean canCut(int[] woods, int length, int k) {
 }
 ```
 
+<a id="p-1233"></a>
 [1233. 删除子文件夹](https://leetcode.cn/problems/remove-sub-folders-from-the-filesystem/)
 
 排序一下，当前文件夹如果是前一个保留的文件夹的前缀的话就是它的子文件夹
@@ -8514,6 +9036,7 @@ public List<String> removeSubfolders(String[] folder) {
     }
 ```
 
+<a id="p-480"></a>
 [480. 滑动窗口中位数](https://leetcode.cn/problems/sliding-window-median/)
 
 使用两个堆来完成，用例大会超时但是为了理解就背这个版本的吧
@@ -8579,6 +9102,7 @@ public double[] medianSlidingWindow(int[] nums, int k) {
     }
 ```
 
+<a id="p-1027"></a>
 [1027. 最长等差数列](https://leetcode.cn/problems/longest-arithmetic-subsequence/)
 
 最长等差子数组长度，动态规划，看用例只用到了500以内的，那么两个数之间的差值基本上为-500到500之间，所以设置1001个数，然后在算插值的时候统一下标
@@ -8600,6 +9124,7 @@ public int longestArithSeqLength(int[] nums) {
     }
 ```
 
+<a id="p-1658"></a>
 [1658. 将 x 减到 0 的最小操作数](https://leetcode.cn/problems/minimum-operations-to-reduce-x-to-zero/)
 
 逆向思维，因为取的是两边的值，那么我们直接算出总和然后减去目标值就是中间剩下的长度，用滑动窗口算出最长长度然后总长度减去就好。
@@ -8640,6 +9165,7 @@ public int minOperations(int[] nums, int x) {
     }
 ```
 
+<a id="p-1280"></a>
 [1280. 学生们参加各科测试的次数](https://leetcode.cn/problems/students-and-examinations/)
 
 内连接，逗号连接，至展示满足条件的项，左连接，显示前一个表的所有项，右边没有的显示空，full join显示全部，没有填null，cross join笛卡儿积，self join 自连接起别名就好，natural join自动匹配连接
@@ -8655,6 +9181,7 @@ group by student_id,subject_name
 order by student_id,subject_name
 ```
 
+<a id="p-703"></a>
 [703. 数据流中的第 K 大元素](https://leetcode.cn/problems/kth-largest-element-in-a-stream/)
 
 建立一个最小堆，然后维护堆的大小是k就可以，堆顶就是返回值
@@ -8680,11 +9207,12 @@ class KthLargest {
     }
 ```
 
+<a id="p-1109"></a>
 [1109. 航班预订统计](https://leetcode.cn/problems/corporate-flight-bookings/)
 
 差分数组，第一次见到这种结构
 
-![1758194375256](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1758194375256.png)
+![1758194375256](images/1758194375256.png)
 
 ```java
 public int[] corpFlightBookings(int[][] bookings, int n) {
@@ -8805,6 +9333,7 @@ public int maxValue(int[] nums) {
         }
 ```
 
+<a id="p-1438"></a>
 [1438. 绝对差不超过限制的最长连续子数组](https://leetcode.cn/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
 
 双单调栈加滑动窗口，两个单调栈分别存最大值和最小值，如果超过阈值，left++
@@ -8841,6 +9370,7 @@ public int longestSubarray(int[] nums, int limit) {
     }
 ```
 
+<a id="p-237"></a>
 [237. 删除链表中的节点](https://leetcode.cn/problems/delete-node-in-a-linked-list/)
 
 金蝉脱壳法，不知道前驱节点的各个信息，那么只需要把后面所有节点的值往前移一个就可以了
@@ -9007,6 +9537,7 @@ public int smallestDifference(int[] a, int[] b) {
     }
 ```
 
+<a id="p-873"></a>
 [873. 最长的斐波那契子序列的长度](https://leetcode.cn/problems/length-of-longest-fibonacci-subsequence/)
 
 这个递推关系比较新奇，就是以i和j为最后两个数字的最长的长度
@@ -9042,6 +9573,7 @@ ublic int lenLongestFibSubseq(int[] arr) {
     }
 ```
 
+<a id="p-382"></a>
 [382. 链表随机节点](https://leetcode.cn/problems/linked-list-random-node/)
 
 米奇妙妙屋的随机算法，每一次getrandom都需要O(n)的时间，需要遍历一次整个链表，假设有四个节点刚好选了第三个的概率就是第一个第二个无所谓1*1 *(1/3) *(3/4)还是四分之一，前后会相互抵消，取第一个节点的概率是(1/2) *(2/3) *(3/4)还是1/4
@@ -9071,6 +9603,7 @@ public class Solution {
     }
 ```
 
+<a id="p-781"></a>
 [781. 森林中的兔子](https://leetcode.cn/problems/rabbits-in-forest/)
 
 数学题，找到规律就好，四个人报出了3就可以抵消掉加四个人，再多一个人就是另外一个颜色了
@@ -9094,6 +9627,7 @@ public int numRabbits(int[] answers) {
     }
 ```
 
+<a id="p-652"></a>
 [652. 寻找重复的子树](https://leetcode.cn/problems/find-duplicate-subtrees/)
 
 不要使用硬递归的方式，可以采用序列化左右子树然后比较，如果出现过两次就加入set
@@ -9129,6 +9663,7 @@ public int numRabbits(int[] answers) {
     }
 ```
 
+<a id="p-870"></a>
 [870. 优势洗牌](https://leetcode.cn/problems/advantage-shuffle/)
 
 哈希映射想出来了，但是缺点是没有想出来怎么处理相同值的问题Hashmap会只存一个值那么我们可以存一个下标列表这样就好了，贪心策略，优先匹配最大的打败他，否则用最小的满足，这个函数需要注意一下：indices.remove(0)
@@ -9160,6 +9695,7 @@ public int[] advantageCount(int[] nums1, int[] nums2) {
     }
 ```
 
+<a id="p-376"></a>
 [376. 摆动序列](https://leetcode.cn/problems/wiggle-subsequence/)
 
 动态规划
@@ -9227,11 +9763,12 @@ public int wiggleMaxLength(int[] nums) {
 }
 ```
 
+<a id="p-365"></a>
 [365. 水壶问题](https://leetcode.cn/problems/water-and-jug-problem/)
 
 贝组定理
 
-![1758443292246](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1758443292246.png)
+![1758443292246](images/1758443292246.png)
 
 ```java
 public int gcd(int x, int y) {
@@ -9249,6 +9786,7 @@ public int gcd(int x, int y) {
     }
 ```
 
+<a id="p-877"></a>
 [877. 石子游戏](https://leetcode.cn/problems/stone-game/)
 
 ```java
@@ -9287,6 +9825,7 @@ public boolean stoneGame(int[] piles) {
 }
 ```
 
+<a id="p-915"></a>
 [915. 分割数组](https://leetcode.cn/problems/partition-array-into-disjoint-intervals/)
 
 前后缀和的思想，算出最大值前缀和最小值后缀，找到两个中间的地方最大值前缀小于最小值后缀的地方在加一就是对应长度
@@ -9314,6 +9853,7 @@ public int partitionDisjoint(int[] nums) {
     }
 ```
 
+<a id="p-373"></a>
 [373. 查找和最小的 K 对数字](https://leetcode.cn/problems/find-k-pairs-with-smallest-sums/)
 
 为什么这样考虑，先把第一个数组的前K个元素加进来，每次加入了队首之后再把i,j+1加入，因为对于i来说已经把i+1,i+2,...和j=0的情况都加进去了，这样只要考虑不停的加入j+1就可以了
@@ -9344,10 +9884,12 @@ public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
     }
 ```
 
+<a id="p-1013"></a>
 [1013. 将数组分成和相等的三个部分](https://leetcode.cn/problems/partition-array-into-three-parts-with-equal-sum/)
 
 早停策略，先判断能不能被三整除，然后找到两个分割点就可以返回true
 
+<a id="p-147"></a>
 [147. 对链表进行插入排序](https://leetcode.cn/problems/insertion-sort-list/)
 
 插入排序链表有几个思考点，一个是截断两个地方，一个是已经排序的，一个是还未排序的 23ms
@@ -9402,6 +9944,7 @@ public ListNode insertionSortList(ListNode head) {
     }
 ```
 
+<a id="p-786"></a>
 [786. 第 K 个最小的质数分数](https://leetcode.cn/problems/k-th-smallest-prime-fraction/)
 
 二分查找的方法，从0-1之间找到第K大的最大近似值
@@ -9481,6 +10024,7 @@ public int[] kthSmallestPrimeFraction(int[] arr, int k) {
     }
 ```
 
+<a id="p-726"></a>
 [726. 原子的数量](https://leetcode.cn/problems/number-of-atoms/)
 
 ```java
@@ -9583,6 +10127,7 @@ class Solution {
 }
 ```
 
+<a id="p-1049"></a>
 [1049. 最后一块石头的重量 II](https://leetcode.cn/problems/last-stone-weight-ii/)
 
 分成两半，找到最大下标用一半乘以2就是裂开的数量，如果总和是奇数的话要多加一
@@ -9613,6 +10158,7 @@ public int lastStoneWeightII(int[] stones) {
     }
 ```
 
+<a id="p-331"></a>
 [331. 验证二叉树的前序序列化](https://leetcode.cn/problems/verify-preorder-serialization-of-a-binary-tree/)
 
 模拟左右节点再走一遍，我真是太聪明了
@@ -9637,6 +10183,7 @@ String[] nodes;
     }
 ```
 
+<a id="p-187"></a>
 [187. 重复的DNA序列](https://leetcode.cn/problems/repeated-dna-sequences/)
 
 当然可以选择hashset去重，但是一个更佳的方案是用hashmap存次数，仅在次数为2的时候存
@@ -9657,6 +10204,7 @@ public List<String> findRepeatedDnaSequences(String s) {
     }
 ```
 
+<a id="p-621"></a>
 [621. 任务调度器](https://leetcode.cn/problems/task-scheduler/)
 
 别再傻傻模拟了，还模拟不明白，看到数学推导赶紧理解吧
@@ -9693,6 +10241,7 @@ public int leastInterval(char[] tasks, int n) {
 }
 ```
 
+<a id="p-632"></a>
 [632. 最小区间](https://leetcode.cn/problems/smallest-range-covering-elements-from-k-lists/)
 
 区间数统计，类似词频统计，然后把K个窗口集合到一个列表中，按照值大小排序（注意用列表然后再排序要维护相对位置的，不能用优先队列），同时存区间号，left和right动态维护满足条件的长度，选择最短长度就好
@@ -9771,6 +10320,7 @@ public int[] smallestRange(List<List<Integer>> nums) {
     }
 ```
 
+<a id="p-814"></a>
 [814. 二叉树剪枝](https://leetcode.cn/problems/binary-tree-pruning/)
 
 后序遍历，先算左孩子右孩子再看是不是都为空然后当前值还是0，是的话返回null
@@ -9791,10 +10341,12 @@ public TreeNode pruneTree(TreeNode root) {
     }
 ```
 
+<a id="p-1339"></a>
 [1339. 分裂二叉树的最大乘积](https://leetcode.cn/problems/maximum-product-of-splitted-binary-tree/)
 
 先把树改造成总和树，然后总和就是root的值，用全局变量进行一次树的遍历就可以了用总和减去当前节点的值就是剩余的值，相乘然后取最大值
 
+<a id="p-399"></a>
 [399. 除法求值](https://leetcode.cn/problems/evaluate-division/)
 
 除法把它当作一个图，a/b当作从a到b的代价，然后结果就是用每个代价相乘就好了，对于图来说有一个小细节就是加入到map中的时候一定要两边都加
@@ -9880,6 +10432,7 @@ public int maxSubArrayLen(int[] nums, int k) {
     }
 ```
 
+<a id="p-633"></a>
 [633. 平方数之和](https://leetcode.cn/problems/sum-of-square-numbers/)
 
 双指针，就是先把c转换成long然后求根号，左指针是0，右指针是c的根号，然后使用双指针，如果大了右指针减一，小了左指针减一，注意要换成long类型
@@ -9903,7 +10456,7 @@ public boolean judgeSquareSum(int c) {
 
 费马平方和，了解就行，使用双指针方法就好
 
-![1758770562251](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1758770562251.png)
+![1758770562251](images/1758770562251.png)
 
 ```java
 public class Solution {
@@ -9917,6 +10470,7 @@ public class Solution {
 }
 ```
 
+<a id="p-820"></a>
 [820. 单词的压缩编码](https://leetcode.cn/problems/short-encoding-of-words/)
 
 ```java
@@ -9952,6 +10506,7 @@ public int minimumLengthEncoding(String[] words) {
     }
 ```
 
+<a id="p-1209"></a>
 [1209. 删除字符串中的所有相邻重复项 II](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string-ii/)
 
 双指针非常巧妙，计数数组去计算当前的计数，arr数组拷贝相应的指针字符，每个字符都会拷贝但是slow会回溯把相同多余的字符全部覆盖掉
@@ -9996,6 +10551,7 @@ public String removeDuplicates(String s, int k) {
     }
 ```
 
+<a id="p-151"></a>
 [151. 反转字符串中的单词](https://leetcode.cn/problems/reverse-words-in-a-string/)
 
 最快方法，全部使用库函数，分割的时候中间可能会有多余空格，它会变成空串计算进去，遇到别加入就行
@@ -10015,6 +10571,7 @@ public String reverseWords(String s) {
     }
 ```
 
+<a id="p-212"></a>
 [212. 单词搜索 II](https://leetcode.cn/problems/word-search-ii/)
 
 前缀树记录所有的节点，注意在建树的时候有一个小细节就是只有节点不存在才去建新的节点，不然出错找半天
@@ -10078,9 +10635,10 @@ List<String> res=new ArrayList<>();
     }
 ```
 
+<a id="p-132"></a>
 [132. 分割回文串 II](https://leetcode.cn/problems/palindrome-partitioning-ii/)
 
-我本身有一个思路，就是dp记录回文判定，然后使用贪心算法从左到右优先找到最长的回文然后移动指针，但其实有bug   例如用例： 正确分割是a，aabaa而不是aaa b aa![1758853076157](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1758853076157.png)
+我本身有一个思路，就是dp记录回文判定，然后使用贪心算法从左到右优先找到最长的回文然后移动指针，但其实有bug   例如用例： 正确分割是a，aabaa而不是aaa b aa![1758853076157](images/1758853076157.png)
 
 正确思路，dp直接记录从i到j的分割次数，使用中心扩散法去处理回文串
 
@@ -10124,10 +10682,12 @@ List<String> res=new ArrayList<>();
     }
 ```
 
+<a id="p-387"></a>
 [387. 字符串中的第一个唯一字符](https://leetcode.cn/problems/first-unique-character-in-a-string/)
 
 只包含小写字符，使用数组哈希，一个记录次数一个记录下标，然后从0到len-1遍历次数是1的直接返回下标
 
+<a id="p-539"></a>
 [539. 最小时间差](https://leetcode.cn/problems/minimum-time-difference/)
 
 把所有时间全部转化成分钟然后排序，然后相减，最后还需要用第一个加上24*60减去最后一个算
@@ -10157,6 +10717,7 @@ public int findMinDifference(List<String> timePoints) {
     }
 ```
 
+<a id="p-473"></a>
 [473. 火柴拼正方形](https://leetcode.cn/problems/matchsticks-to-square/)
 
 没想到是用回溯做的，这个剪枝条件比较难想：if(i>0&&sq[i]==sq[i-1])continue;前一个和后一个边相等的时候要减枝
@@ -10204,6 +10765,7 @@ public boolean makesquare(int[] matchsticks) {
     }
 ```
 
+<a id="p-796"></a>
 [796. 旋转字符串](https://leetcode.cn/problems/rotate-string/)
 
 方法一移动串
@@ -10231,6 +10793,7 @@ public boolean rotateString(String s, String goal) {
     }
 ```
 
+<a id="p-1011"></a>
 [1011. 在 D 天内送达包裹的能力](https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/)
 
 二分查找，左边界是元素最大值，右边界是总和，然后计算函数计算的是这个承载能力所要的天数与实际天数来反映
@@ -10301,6 +10864,7 @@ List<List<Integer>> res=new LinkedList<>();
     }
 ```
 
+<a id="p-1424"></a>
 [1424. 对角线遍历 II](https://leetcode.cn/problems/diagonal-traverse-ii/)
 
 非常好的方法，重点是有一个非常棒的规律是i+j的和是在同一个分组里面，从上到下依次加入到不同分组里面，然后最后要逆向遍历得到答案
@@ -10344,6 +10908,7 @@ public int[] findDiagonalOrder(List<List<Integer>> nums) {
     }
 ```
 
+<a id="p-241"></a>
 [241. 为运算表达式设计优先级](https://leetcode.cn/problems/different-ways-to-add-parentheses/)
 
 DFS分块处理，用运算符号来分割两边的数字，如果结果集为空，说明范围内全是数字，解析数字就好了，是代码量最小的解法
@@ -10392,6 +10957,7 @@ char[] cs;
     }
 ```
 
+<a id="p-393"></a>
 [393. UTF-8 编码验证](https://leetcode.cn/problems/utf-8-validation/)
 
 直接和相关的整数与就行，不用转成字符串
@@ -10479,6 +11045,7 @@ public int numberofDistinctIslands(int[][] grid) {
     }
 ```
 
+<a id="p-785"></a>
 [785. 判断二分图](https://leetcode.cn/problems/is-graph-bipartite/)
 
 没访问过的设为类别1，然后另一个类别设为-1，终止条件是如果已经被标记过了就和理论上比较一下就好因为之前算过这个节点的其他是不是满足
@@ -10506,6 +11073,7 @@ public boolean isBipartite(int[][] graph) {
     }
 ```
 
+<a id="p-1031"></a>
 [1031. 两个非重叠子数组的最大和](https://leetcode.cn/problems/maximum-sum-of-two-non-overlapping-subarrays/)
 
 ```java
@@ -10545,6 +11113,7 @@ public int maxSumTwoNoOverlap(int[] nums, int firstLen, int secondLen) {
 }
 ```
 
+<a id="p-89"></a>
 [89. 格雷编码](https://leetcode.cn/problems/gray-code/)
 
 背吧，它的详细公式是
@@ -10644,6 +11213,7 @@ public String serialize(DirectedGraphNode root) {
     }
 ```
 
+<a id="p-1493"></a>
 [1493. 删掉一个元素以后全为 1 的最长子数组](https://leetcode.cn/problems/longest-subarray-of-1s-after-deleting-one-element/)
 
 滑动窗口，相当于维护最多一个零的窗口，求最大窗口长度
@@ -10668,6 +11238,7 @@ public int longestSubarray(int[] nums) {
 }
 ```
 
+<a id="p-449"></a>
 [449. 序列化和反序列化二叉搜索树](https://leetcode.cn/problems/serialize-and-deserialize-bst/)
 
 记住了，序列化和反序列化只能使用前序遍历，只有前序保留了节点之间的父子关系，没有多余的操作
@@ -10711,6 +11282,7 @@ public int longestSubarray(int[] nums) {
     }
 ```
 
+<a id="p-1353"></a>
 [1353. 最多可以参加的会议数目](https://leetcode.cn/problems/maximum-number-of-events-that-can-be-attended/)
 
 一点点的增加天数，维护一个优先队列，存的是结束时间，结束时间越早越先去开
@@ -10746,6 +11318,7 @@ public int maxEvents(int[][] events) {
 
 思路二，二分查找，只要mid和mid相等，就肯定在右边。不然在左边，返回left
 
+<a id="p-951"></a>
 [951. 翻转等价二叉树](https://leetcode.cn/problems/flip-equivalent-binary-trees/)
 
 把两种情况都包括了就行
@@ -10781,6 +11354,7 @@ public boolean flipEquiv(TreeNode root1, TreeNode root2) {
     }
 ```
 
+<a id="p-738"></a>
 [738. 单调递增的数字](https://leetcode.cn/problems/monotone-increasing-digits/)
 
 从后往前找，找到最后一个乱序的地方，就是前一个数字比当前数字要大，前面数字减一，当前数字到最后都得改成9
@@ -10844,6 +11418,7 @@ for (int i = 1; i <= n; i++) {
     }
 ```
 
+<a id="p-886"></a>
 [886. 可能的二分法](https://leetcode.cn/problems/possible-bipartition/)
 
 两种方法，染色法和并查集法
@@ -10931,6 +11506,7 @@ class Solution {
     }
 ```
 
+<a id="p-949"></a>
 [949. 给定数字能组成的最大时间](https://leetcode.cn/problems/largest-time-for-given-digits/)
 
 暴力解法，暴力解出答案
@@ -10961,6 +11537,7 @@ public String largestTimeFromDigits(int[] arr) {
     }
 ```
 
+<a id="p-1423"></a>
 [1423. 可获得的最大点数](https://leetcode.cn/problems/maximum-points-you-can-obtain-from-cards/)
 
 可以使用前缀和
@@ -10979,6 +11556,7 @@ public int maxScore(int[] cardPoints, int k) {
 
 可以使用滑动窗口，维护len-k大的窗口然后减就好
 
+<a id="p-1195"></a>
 [1195. 交替打印字符串](https://leetcode.cn/problems/fizz-buzz-multithreaded/)
 
 信号量机制
@@ -11050,6 +11628,7 @@ class FizzBuzz {
 
 ```
 
+<a id="p-1026"></a>
 [1026. 节点与其祖先之间的最大差值](https://leetcode.cn/problems/maximum-difference-between-node-and-ancestor/)
 
 递归的递，最大值最小值一直往下传，传到叶子节点就说明找到一条路径，计算这条路径的最大差值然后返回
@@ -11073,6 +11652,7 @@ int res = Integer.MIN_VALUE;
     }
 ```
 
+<a id="p-292"></a>
 [292. Nim 游戏](https://leetcode.cn/problems/nim-game/)
 
 大道至简，只要凑齐了4的倍数+1就可以必赢
@@ -11081,6 +11661,7 @@ int res = Integer.MIN_VALUE;
 return n % 4 != 0;
 ```
 
+<a id="p-987"></a>
 [987. 二叉树的垂序遍历](https://leetcode.cn/problems/vertical-order-traversal-of-a-binary-tree/)
 
 ```java
@@ -11149,9 +11730,10 @@ class Solution {
 }
 ```
 
+<a id="p-829"></a>
 [829. 连续整数求和](https://leetcode.cn/problems/consecutive-numbers-sum/)
 
-![1760012833972](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1760012833972.png)
+![1760012833972](images/1760012833972.png)
 
 ```java
 class Solution {
@@ -11268,6 +11850,7 @@ private static String topoSort(boolean[][] graph, int[] inDegree, boolean[] exis
 }
 ```
 
+<a id="p-1115"></a>
 [1115. 交替打印 FooBar](https://leetcode.cn/problems/print-foobar-alternately/)
 
 使用类锁和flag机制
@@ -11419,6 +12002,7 @@ public String longestWord(String[] words) {
     }
 ```
 
+<a id="p-983"></a>
 [983. 最低票价](https://leetcode.cn/problems/minimum-cost-for-tickets/)
 
 ```java
@@ -11440,6 +12024,7 @@ public int mincostTickets(int[] days, int[] costs) {
     }
 ```
 
+<a id="p-1249"></a>
 [1249. 移除无效的括号](https://leetcode.cn/problems/minimum-remove-to-make-valid-parentheses/)
 
 轻微的贪心算法，有点子绕
@@ -11478,9 +12063,10 @@ public String minRemoveToMakeValid(String s) {
     }
 ```
 
+<a id="p-1227"></a>
 [1227. 飞机座位分配概率](https://leetcode.cn/problems/airplane-seat-assignment-probability/)
 
-![1760074657762](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1760074657762.png)
+![1760074657762](images/1760074657762.png)
 
 ```java
 public double nthPersonGetsNthSeat(int n) {
@@ -11488,6 +12074,7 @@ public double nthPersonGetsNthSeat(int n) {
     }
 ```
 
+<a id="p-791"></a>
 [791. 自定义字符串排序](https://leetcode.cn/problems/custom-sort-string/)
 
 方法一，自己想的，很慢。先用map设立优先级，然后分两个串，在map中的加入ArrayList，否则加入结果集，把数组根据map排序，加入结果集
@@ -11519,6 +12106,7 @@ public String customSortString(String order, String s) {
     }
 ```
 
+<a id="p-116"></a>
 [116. 填充每个节点的下一个右侧节点指针](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/)
 
 自顶向下，连接next指针，主要是左孩子连接右孩子，右孩子连接下一个next的左孩子
@@ -11537,6 +12125,7 @@ public Node connect(Node root) {
     }
 ```
 
+<a id="p-697"></a>
 [697. 数组的度](https://leetcode.cn/problems/degree-of-an-array/)
 
 一次遍历就可以完成的方法，就是使用一个哈希，存之前的数字出现的最早下标和出现的次数，如果次数是最大的直接替换最短长度，如果和最大长度相等对比最短长度取最短
@@ -11567,6 +12156,7 @@ public int findShortestSubArray(int[] nums) {
     }
 ```
 
+<a id="p-538"></a>
 [538. 把二叉搜索树转换为累加树](https://leetcode.cn/problems/convert-bst-to-greater-tree/)
 
 全局变量sum，遍历顺序右中左就行
@@ -11588,6 +12178,7 @@ public TreeNode convertBST(TreeNode root) {
     }
 ```
 
+<a id="p-805"></a>
 [805. 数组的均值分割](https://leetcode.cn/problems/split-array-with-same-average/)
 
 特别难我已经蒙圈了
@@ -11655,10 +12246,11 @@ public boolean splitArraySameAverage(int[] nums) {
     }
 ```
 
-![1760183545368](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1760183545368.png)
+![1760183545368](images/1760183545368.png)
 
 9的推导
 
+<a id="p-1024"></a>
 [1024. 视频拼接](https://leetcode.cn/problems/video-stitching/)
 
 ```java
@@ -11680,7 +12272,7 @@ public int videoStitching(int[][] clips, int time) {
 
 [面试题 08.11. 硬币](https://leetcode.cn/problems/coin-lcci/)
 
-完全背包问题，先遍历硬币再遍历数组求的是组合数，有一点贪心在里面，反过来求的就是排列数了![1760239500957](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1760239500957.png)
+完全背包问题，先遍历硬币再遍历数组求的是组合数，有一点贪心在里面，反过来求的就是排列数了![1760239500957](images/1760239500957.png)
 
 
 
@@ -11698,6 +12290,7 @@ public int waysToChange(int n) {
     }
 ```
 
+<a id="p-1156"></a>
 [1156. 单字符重复子串的最大长度](https://leetcode.cn/problems/swap-for-longest-repeated-character-substring/)
 
 这个地方比较难，使用滑动窗口，主要是for循环里面的，要好好思考一下，先是维护窗口里面最大的那个值，再是比较窗口大小和最大值加一大小来缩小左边界
@@ -11730,6 +12323,7 @@ public int maxRepOpt1(String text) {
     }
 ```
 
+<a id="p-687"></a>
 [687. 最长同值路径](https://leetcode.cn/problems/longest-univalue-path/)
 
 选的是一个路径，那么对于当前节点，要么选择左节点要么选择右节点，选最多的，然后确定返回值的含义，返回值表示的是当前值的出现相连的边的数
@@ -11762,6 +12356,7 @@ int max;
     }
 ```
 
+<a id="p-90"></a>
 [90. 子集 II](https://leetcode.cn/problems/subsets-ii/)
 
 不要再取相似的变量名了，又把i全部写成idx了 ！ ！ ！ 
@@ -11778,6 +12373,7 @@ for(int i=idx;i<nums.length;++i)
         }
 ```
 
+<a id="p-980"></a>
 [980. 不同路径 III](https://leetcode.cn/problems/unique-paths-iii/)
 
 先找到起始点，然后计算所有步数总和，然后递归找路径，递减步数，当步数等于0的时候就增加1，travel的含义是从这个点开始使用这么多步数能不能刚好走到终点，注意步数初始化要为一，因为最后走到2的时候步数多减了一个1，步数等于0的个数+1
@@ -11814,6 +12410,7 @@ public int uniquePathsIII(int[][] grid) {
     }
 ```
 
+<a id="p-1235"></a>
 [1235. 规划兼职工作](https://leetcode.cn/problems/maximum-profit-in-job-scheduling/)
 
 ```java
@@ -11914,7 +12511,7 @@ public int[] subSort(int[] array) {
 
 两个方法，海伦公式，如果三角形面积和三个小三角形面积相等说明在里面，如果小于的话说明在外面
 
-![1760416168082](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1760416168082.png)
+![1760416168082](images/1760416168082.png)
 
 ```C++
 struct Point {
@@ -11942,9 +12539,9 @@ bool isInTriangle(Point p1,Point p2,Point p3,Point o) {
 }
 ```
 
-![1760416267477](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1760416267477.png)
+![1760416267477](images/1760416267477.png)
 
-![1760416287008](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1760416287008.png)
+![1760416287008](images/1760416287008.png)
 
 ```java
 struct Point {
@@ -11966,11 +12563,12 @@ bool isInTriangle(Point p1,Point p2,Point p3,Point o) {
 }
 ```
 
+<a id="p-582"></a>
 [582. 杀掉进程 - 力扣（LeetCode）](https://leetcode.cn/problems/kill-process/description/)
 
-![1760440210820](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1760440210820.png)
+![1760440210820](images/1760440210820.png)
 
-![1760440228890](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1760440228890.png)
+![1760440228890](images/1760440228890.png)
 
 ```java
 public List<Integer> killProcess(List<Integer> pid, List<Integer> ppid, int kill) {
@@ -12001,6 +12599,7 @@ public List<Integer> killProcess(List<Integer> pid, List<Integer> ppid, int kill
     }
 ```
 
+<a id="p-280"></a>
 [280. 摆动排序 - 力扣（LeetCode）](https://leetcode.cn/problems/wiggle-sort/description/)
 
 ```java
@@ -12027,6 +12626,7 @@ private void swap(int[] nums, int i, int j) {
 }
 ```
 
+<a id="p-324"></a>
 [324. 摆动排序 II](https://leetcode.cn/problems/wiggle-sort-ii/)
 
 ```java
@@ -12104,10 +12704,12 @@ private void swap(int[] nums, int i, int j) {
 }
 ```
 
+<a id="p-369"></a>
 [369. 给单链表加一 - 力扣（LeetCode）](https://leetcode.cn/problems/plus-one-linked-list/description/)
 
-![1760499634731](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1760499634731.png)
+![1760499634731](images/1760499634731.png)
 
+<a id="p-856"></a>
 [856. 括号的分数](https://leetcode.cn/problems/score-of-parentheses/)
 
 碰到左括号就加一个0，碰到右括号取最后两个数，最后一个数×2和1取最大，然后和倒数第二个相加再加到最后
@@ -12129,6 +12731,7 @@ public int scoreOfParentheses(String s) {
     }
 ```
 
+<a id="p-593"></a>
 [593. 有效的正方形](https://leetcode.cn/problems/valid-square/)
 
 保证三个角都是等腰直角三角形就行，同时还要确保四个点不一样就是距离不为0
@@ -12149,6 +12752,7 @@ public boolean validSquare(int[] p1, int[] p2, int[] p3, int[] p4) {
     }
 ```
 
+<a id="p-743"></a>
 [743. 网络延迟时间](https://leetcode.cn/problems/network-delay-time/)
 
 使用优先队列和距离数组，当遇到旧的当前节点距离的时候要和距离数组比一下选择是否舍弃
@@ -12188,6 +12792,7 @@ public int networkDelayTime(int[][] times, int n, int k) {
     }
 ```
 
+<a id="p-1277"></a>
 [1277. 统计全为 1 的正方形子矩阵](https://leetcode.cn/problems/count-square-submatrices-with-all-ones/)
 
 动态规划，求最大正方形然后所有相加，递推公式是左上三边取最小值
@@ -12232,6 +12837,7 @@ public int findKthNumber(int k) {
     }
 ```
 
+<a id="p-318"></a>
 [318. 最大单词长度乘积](https://leetcode.cn/problems/maximum-product-of-word-lengths/)
 
 位掩码技术，只有小写字母所以可以用26位来表示一个单词，每个单词都有自己的掩码，如果两个掩码相与得到了0就说明没有字母相同
@@ -12259,6 +12865,7 @@ public int maxProduct(String[] words) {
     }
 ```
 
+<a id="p-1106"></a>
 [1106. 解析布尔表达式](https://leetcode.cn/problems/parsing-a-boolean-expression/)
 
 ```java
@@ -12350,10 +12957,12 @@ public int nthUglyNumber(int n) {
     }
 ```
 
+<a id="p-653"></a>
 [653. 两数之和 IV - 输入二叉搜索树](https://leetcode.cn/problems/two-sum-iv-input-is-a-bst/)
 
 可以用一个列表存起来有序数组然后两边双指针移动找到目标值
 
+<a id="p-813"></a>
 [813. 最大平均值和的分组](https://leetcode.cn/problems/largest-sum-of-averages/)
 
 ```java
@@ -12401,6 +13010,7 @@ public double largestSumOfAverages(int[] nums, int k) {
 }
 ```
 
+<a id="p-65"></a>
 [65. 有效数字](https://leetcode.cn/problems/valid-number/)
 
 写出来的是神仙，我哭了
@@ -12496,6 +13106,7 @@ class Solution {
 }
 ```
 
+<a id="p-773"></a>
 [773. 滑动谜题](https://leetcode.cn/problems/sliding-puzzle/)
 
 序列化答案，可以快速比较，然后使用set去重避免重复加入，然后使用BFS可以快速求最小步数
@@ -12548,6 +13159,7 @@ public int slidingPuzzle(int[][] board) {
     }
 ```
 
+<a id="p-583"></a>
 [583. 两个字符串的删除操作](https://leetcode.cn/problems/delete-operation-for-two-strings/)
 
 ```java
@@ -12567,6 +13179,7 @@ public int minDistance(String word1, String word2) {
     }
 ```
 
+<a id="p-792"></a>
 [792. 匹配子序列的单词数](https://leetcode.cn/problems/number-of-matching-subsequences/)
 
 把所有的字符存进map中的动态数组然后使用二分法找到比当前下标只大一点点的下一个下标索引，更新当前下标
@@ -12626,6 +13239,7 @@ public int numMatchingSubseq(String s, String[] words) {
 }
 ```
 
+<a id="p-474"></a>
 [474. 一和零](https://leetcode.cn/problems/ones-and-zeroes/)
 
 背包问题，每个东西只能遍历一次，所以需要反向遍历
@@ -12649,6 +13263,7 @@ public int findMaxForm(String[] strs, int m, int n) {
     }
 ```
 
+<a id="p-391"></a>
 [391. 完美矩形](https://leetcode.cn/problems/perfect-rectangle/)
 
 ```java
@@ -12729,6 +13344,7 @@ class Solution {
 }
 ```
 
+<a id="p-1129"></a>
 [1129. 颜色交替的最短路径](https://leetcode.cn/problems/shortest-path-with-alternating-colors/)
 
 两个邻接表然后从红变成蓝相互交替使用BFS
@@ -12972,6 +13588,7 @@ public class Maze3 {
 }
 ```
 
+<a id="p-341"></a>
 [341. 扁平化嵌套列表迭代器](https://leetcode.cn/problems/flatten-nested-list-iterator/)
 
 DFS拆开每一个列表然后加入队列中，再遍历移动指针就好
@@ -13008,6 +13625,7 @@ class NestedIterator implements Iterator<Integer> {
 
 ```
 
+<a id="p-1048"></a>
 [1048. 最长字符串链](https://leetcode.cn/problems/longest-string-chain/)
 
 hm相当于dp数组，每一次把字符的第i个字符跳过组成新的看看之前有没有
@@ -13032,6 +13650,7 @@ public int longestStrChain(String[] words) {
     }
 ```
 
+<a id="p-1358"></a>
 [1358. 包含所有三种字符的子字符串数目](https://leetcode.cn/problems/number-of-substrings-containing-all-three-characters/)
 
 滑动窗口，维护字符数等于三的窗口，等于三直接相加，然后缩短左边界
@@ -13055,6 +13674,7 @@ public int numberOfSubstrings(String s) {
     }
 ```
 
+<a id="p-910"></a>
 [910. 最小差值 II](https://leetcode.cn/problems/smallest-range-ii/)
 
 让最大值尽量小一点，最小值尽量大一点
@@ -13073,6 +13693,7 @@ public int smallestRangeII(int[] nums, int k) {
     }
 ```
 
+<a id="p-1668"></a>
 [1668. 最大重复子字符串](https://leetcode.cn/problems/maximum-repeating-substring/)
 
 不断增加字符串看看原字符串有没有这个子串
@@ -13090,6 +13711,7 @@ public int maxRepeating(String sequence, String word) {
     }
 ```
 
+<a id="p-313"></a>
 [313. 超级丑数](https://leetcode.cn/problems/super-ugly-number/)
 
 注意下标含义
@@ -13114,6 +13736,7 @@ public int nthSuperUglyNumber(int n, int[] primes) {
     }
 ```
 
+<a id="p-1594"></a>
 [1594. 矩阵的最大非负积](https://leetcode.cn/problems/maximum-non-negative-product-in-a-matrix/)
 
 本来用的深搜但是超时了，动态规划，记录到当前节点最小值和最大值矩阵，从上到下从左到右遍历
@@ -13152,6 +13775,7 @@ public int maxProductPath(int[][] grid) {
     }
 ```
 
+<a id="p-299"></a>
 [299. 猜数字游戏](https://leetcode.cn/problems/bulls-and-cows/)
 
 只有一个注意的地方就是b的增加是要加两者的最小值的
@@ -13175,6 +13799,7 @@ public String getHint(String secret, String guess) {
     }
 ```
 
+<a id="p-397"></a>
 [397. 整数替换](https://leetcode.cn/problems/integer-replacement/)
 
 ```java
@@ -13208,9 +13833,10 @@ Map<Long, Integer> map = new HashMap<>();
     }
 ```
 
+<a id="p-769"></a>
 [769. 最多能完成排序的块](https://leetcode.cn/problems/max-chunks-to-make-sorted/)
 
-注意到![1761550166794](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1761550166794.png)
+注意到![1761550166794](images/1761550166794.png)
 
 当前值就是他应该在的下标
 
@@ -13226,6 +13852,7 @@ public int maxChunksToSorted(int[] arr) {
     }
 ```
 
+<a id="p-853"></a>
 [853. 车队](https://leetcode.cn/problems/car-fleet/)
 
 单调栈，正序遍历的方式
@@ -13268,6 +13895,7 @@ public int carFleet(int target, int[] position, int[] speed) {
     }
 ```
 
+<a id="p-477"></a>
 [477. 汉明距离总和](https://leetcode.cn/problems/total-hamming-distance/)
 
 算出每一位的0和1的个数直接相乘就行
@@ -13286,6 +13914,7 @@ public int totalHammingDistance(int[] nums) {
     }
 ```
 
+<a id="p-1367"></a>
 [1367. 二叉树中的链表](https://leetcode.cn/problems/linked-list-in-binary-tree/)
 
 ```java
@@ -13302,6 +13931,7 @@ public boolean dfs(TreeNode root,ListNode head)
     }
 ```
 
+<a id="p-423"></a>
 [423. 从英文中重建数字](https://leetcode.cn/problems/reconstruct-original-digits-from-english/)
 
 脑筋急转弯，有一些数字的字符是它专有的，然后贪心优先构建就好
@@ -13335,9 +13965,10 @@ String[] numStr = new String[]{"eight","four","two","six","zero","five", "one","
     }
 ```
 
+<a id="p-859"></a>
 [859. 亲密字符串](https://leetcode.cn/problems/buddy-strings/)
 
-![1761795225280](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1761795225280.png)
+![1761795225280](images/1761795225280.png)
 
 ```java
 public boolean buddyStrings(String s, String goal) {
@@ -13359,6 +13990,7 @@ public boolean buddyStrings(String s, String goal) {
     }
 ```
 
+<a id="p-795"></a>
 [795. 区间子数组个数](https://leetcode.cn/problems/number-of-subarrays-with-bounded-maximum/)
 
 ```java
@@ -13383,6 +14015,7 @@ public int numSubarrayBoundedMax(int[] nums, int left, int right) {
 
 ```
 
+<a id="p-629"></a>
 [629. K 个逆序对数组](https://leetcode.cn/problems/k-inverse-pairs-array/)
 
 ```java
@@ -13432,6 +14065,7 @@ public int kInversePairs(int n, int k) {
 }
 ```
 
+<a id="p-65-2"></a>
 [65. 有效数字](https://leetcode.cn/problems/valid-number/)
 
 ```java
@@ -13507,6 +14141,7 @@ boolean check(char[] cs, int start, int end, boolean mustInteger) {
 
 ```
 
+<a id="p-862-2"></a>
 [862. 和至少为 K 的最短子数组](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k/)
 
 ```java
@@ -13594,6 +14229,7 @@ public static int shortestSubarray(int[] arr, int k) {
 
 ```
 
+<a id="p-31"></a>
 [31. 下一个排列](https://leetcode.cn/problems/next-permutation/)
 
 分为三步，从后往前找到第一个下降的数字，如果找到了这样的数字，找到从右边开始找第一个比它大的数字并交换，反转 i 之后的子数组
@@ -13630,6 +14266,7 @@ public void nextPermutation(int[] nums) {
     }
 ```
 
+<a id="p-224-3"></a>
 [224. 基本计算器](https://leetcode.cn/problems/basic-calculator/)
 
 计算器通解，给我背下来
